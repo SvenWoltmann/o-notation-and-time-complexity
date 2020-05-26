@@ -1,0 +1,1481 @@
+===== Warm up 1 of 3 =====
+
+--- ConstantTime (warming up 1 of 3) ---
+ConstantTime: n =          32 --> time =       679,300 ns
+ConstantTime: n =          64 --> time =       144,400 ns
+ConstantTime: n =         128 --> time =        69,000 ns
+ConstantTime: n =         256 --> time =        61,400 ns
+ConstantTime: n =         512 --> time =        97,900 ns
+ConstantTime: n =       1,024 --> time =        66,200 ns
+ConstantTime: n =       2,048 --> time =        84,000 ns
+ConstantTime: n =       4,096 --> time =        63,900 ns
+ConstantTime: n =       8,192 --> time =        67,100 ns
+ConstantTime: n =      16,384 --> time =        42,000 ns
+ConstantTime: n =      32,768 --> time =        58,200 ns
+ConstantTime: n =      65,536 --> time =        68,700 ns
+ConstantTime: n =     131,072 --> time =        87,800 ns
+ConstantTime: n =     262,144 --> time =       120,500 ns
+ConstantTime: n =     524,288 --> time =        99,300 ns
+ConstantTime: n =   1,048,576 --> time =        98,600 ns
+ConstantTime: n =   2,097,152 --> time =        86,300 ns
+ConstantTime: n =   4,194,304 --> time =       107,200 ns
+ConstantTime: n =   8,388,608 --> time =       143,100 ns
+
+--- LinearTime (warming up 1 of 3) ---
+LinearTime: n =          32 --> time =         3,200 ns
+LinearTime: n =          64 --> time =         2,200 ns
+LinearTime: n =         128 --> time =         2,700 ns
+LinearTime: n =         256 --> time =         4,100 ns
+LinearTime: n =         512 --> time =         6,600 ns
+LinearTime: n =       1,024 --> time =        14,700 ns
+LinearTime: n =       2,048 --> time =        26,700 ns
+LinearTime: n =       4,096 --> time =        50,400 ns
+LinearTime: n =       8,192 --> time =        96,700 ns
+LinearTime: n =      16,384 --> time =       195,100 ns
+LinearTime: n =      32,768 --> time =       390,600 ns
+LinearTime: n =      65,536 --> time =       325,100 ns
+LinearTime: n =     131,072 --> time =       609,000 ns
+LinearTime: n =     262,144 --> time =       184,900 ns
+LinearTime: n =     524,288 --> time =       209,100 ns
+LinearTime: n =   1,048,576 --> time =       393,400 ns
+LinearTime: n =   2,097,152 --> time =     2,419,000 ns
+LinearTime: n =   4,194,304 --> time =     1,527,300 ns
+LinearTime: n =   8,388,608 --> time =     3,118,500 ns
+LinearTime: n =  16,777,216 --> time =     6,302,600 ns
+LinearTime: n =  33,554,432 --> time =    12,519,900 ns
+LinearTime: n =  67,108,864 --> time =    25,512,400 ns
+LinearTime: n = 134,217,728 --> time =    42,709,400 ns
+LinearTime: n = 268,435,456 --> time =    85,378,200 ns
+LinearTime: n = 536,870,912 --> time =   164,421,900 ns
+
+--- QuadraticTime (warming up 1 of 3) ---
+QuadraticTime: n =          32 --> time =        17,900 ns
+QuadraticTime: n =          64 --> time =        24,700 ns
+QuadraticTime: n =         128 --> time =        88,700 ns
+QuadraticTime: n =         256 --> time =       365,900 ns
+QuadraticTime: n =         512 --> time =     1,041,800 ns
+QuadraticTime: n =       1,024 --> time =     1,506,300 ns
+QuadraticTime: n =       2,048 --> time =       465,400 ns
+QuadraticTime: n =       4,096 --> time =     1,229,600 ns
+QuadraticTime: n =       8,192 --> time =     4,864,200 ns
+QuadraticTime: n =      16,384 --> time =    18,982,600 ns
+QuadraticTime: n =      32,768 --> time =    77,713,700 ns
+QuadraticTime: n =      65,536 --> time =   325,901,900 ns
+QuadraticTime: n =     131,072 --> time = 1,314,280,600 ns
+
+--- LogarithmicTime (warming up 1 of 3) ---
+LogarithmicTime: n =          32 --> time =     2,043,800 ns
+LogarithmicTime: n =          64 --> time =       566,800 ns
+LogarithmicTime: n =         128 --> time =       781,200 ns
+LogarithmicTime: n =         256 --> time =       655,700 ns
+LogarithmicTime: n =         512 --> time =       638,300 ns
+LogarithmicTime: n =       1,024 --> time =       736,400 ns
+LogarithmicTime: n =       2,048 --> time =     1,309,300 ns
+LogarithmicTime: n =       4,096 --> time =       744,900 ns
+LogarithmicTime: n =       8,192 --> time =       666,400 ns
+LogarithmicTime: n =      16,384 --> time =       879,500 ns
+LogarithmicTime: n =      32,768 --> time =       918,600 ns
+LogarithmicTime: n =      65,536 --> time =     1,166,700 ns
+LogarithmicTime: n =     131,072 --> time =       922,400 ns
+LogarithmicTime: n =     262,144 --> time =       650,900 ns
+LogarithmicTime: n =     524,288 --> time =       526,100 ns
+LogarithmicTime: n =   1,048,576 --> time =       498,100 ns
+LogarithmicTime: n =   2,097,152 --> time =     1,252,000 ns
+LogarithmicTime: n =   4,194,304 --> time =       696,000 ns
+LogarithmicTime: n =   8,388,608 --> time =       919,000 ns
+LogarithmicTime: n =  16,777,216 --> time =     1,287,400 ns
+LogarithmicTime: n =  33,554,432 --> time =     1,485,400 ns
+LogarithmicTime: n =  67,108,864 --> time =       953,700 ns
+LogarithmicTime: n = 134,217,728 --> time =     1,064,900 ns
+LogarithmicTime: n = 268,435,456 --> time =     1,542,400 ns
+LogarithmicTime: n = 536,870,912 --> time =       851,700 ns
+
+--- QuasiLinearTime (warming up 1 of 3) ---
+QuasiLinearTime: n =          64 --> time =        47,600 ns
+QuasiLinearTime: n =         128 --> time =        42,900 ns
+QuasiLinearTime: n =         256 --> time =        87,000 ns
+QuasiLinearTime: n =         512 --> time =       148,800 ns
+QuasiLinearTime: n =       1,024 --> time =       290,700 ns
+QuasiLinearTime: n =       2,048 --> time =       765,000 ns
+QuasiLinearTime: n =       4,096 --> time =       902,400 ns
+QuasiLinearTime: n =       8,192 --> time =       912,900 ns
+QuasiLinearTime: n =      16,384 --> time =     1,334,200 ns
+QuasiLinearTime: n =      32,768 --> time =     2,752,200 ns
+QuasiLinearTime: n =      65,536 --> time =    10,917,000 ns
+QuasiLinearTime: n =     131,072 --> time =    12,712,000 ns
+QuasiLinearTime: n =     262,144 --> time =    34,251,300 ns
+QuasiLinearTime: n =     524,288 --> time =    33,945,500 ns
+QuasiLinearTime: n =   1,048,576 --> time =    75,438,000 ns
+QuasiLinearTime: n =   2,097,152 --> time =   155,801,200 ns
+QuasiLinearTime: n =   4,194,304 --> time =   320,744,800 ns
+QuasiLinearTime: n =   8,388,608 --> time =   628,607,200 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,189,830,500 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,468,317,900 ns
+
+===== Warm up 2 of 3 =====
+
+--- ConstantTime (warming up 2 of 3) ---
+ConstantTime: n =          32 --> time =        57,800 ns
+ConstantTime: n =          64 --> time =        38,700 ns
+ConstantTime: n =         128 --> time =        39,700 ns
+ConstantTime: n =         256 --> time =        39,900 ns
+ConstantTime: n =         512 --> time =        39,700 ns
+ConstantTime: n =       1,024 --> time =        39,600 ns
+ConstantTime: n =       2,048 --> time =        40,200 ns
+ConstantTime: n =       4,096 --> time =        40,600 ns
+ConstantTime: n =       8,192 --> time =        38,600 ns
+ConstantTime: n =      16,384 --> time =        39,000 ns
+ConstantTime: n =      32,768 --> time =        38,300 ns
+ConstantTime: n =      65,536 --> time =        44,400 ns
+ConstantTime: n =     131,072 --> time =        67,200 ns
+ConstantTime: n =     262,144 --> time =        55,000 ns
+ConstantTime: n =     524,288 --> time =        64,600 ns
+ConstantTime: n =   1,048,576 --> time =        60,300 ns
+ConstantTime: n =   2,097,152 --> time =        60,000 ns
+ConstantTime: n =   4,194,304 --> time =        76,300 ns
+ConstantTime: n =   8,388,608 --> time =        60,800 ns
+
+--- LinearTime (warming up 2 of 3) ---
+LinearTime: n =          32 --> time =           500 ns
+LinearTime: n =          64 --> time =           200 ns
+LinearTime: n =         128 --> time =           200 ns
+LinearTime: n =         256 --> time =           300 ns
+LinearTime: n =         512 --> time =           200 ns
+LinearTime: n =       1,024 --> time =           500 ns
+LinearTime: n =       2,048 --> time =           700 ns
+LinearTime: n =       4,096 --> time =         1,300 ns
+LinearTime: n =       8,192 --> time =         3,500 ns
+LinearTime: n =      16,384 --> time =         4,900 ns
+LinearTime: n =      32,768 --> time =         9,900 ns
+LinearTime: n =      65,536 --> time =        37,700 ns
+LinearTime: n =     131,072 --> time =        56,800 ns
+LinearTime: n =     262,144 --> time =        99,400 ns
+LinearTime: n =     524,288 --> time =       198,700 ns
+LinearTime: n =   1,048,576 --> time =       514,700 ns
+LinearTime: n =   2,097,152 --> time =       827,000 ns
+LinearTime: n =   4,194,304 --> time =     1,577,200 ns
+LinearTime: n =   8,388,608 --> time =     3,152,500 ns
+LinearTime: n =  16,777,216 --> time =     6,184,900 ns
+LinearTime: n =  33,554,432 --> time =    12,670,000 ns
+LinearTime: n =  67,108,864 --> time =    20,973,300 ns
+LinearTime: n = 134,217,728 --> time =    41,373,800 ns
+LinearTime: n = 268,435,456 --> time =    82,655,900 ns
+LinearTime: n = 536,870,912 --> time =   165,145,000 ns
+
+--- QuadraticTime (warming up 2 of 3) ---
+QuadraticTime: n =          32 --> time =         1,900 ns
+QuadraticTime: n =          64 --> time =         1,600 ns
+QuadraticTime: n =         128 --> time =         2,800 ns
+QuadraticTime: n =         256 --> time =         7,400 ns
+QuadraticTime: n =         512 --> time =        22,900 ns
+QuadraticTime: n =       1,024 --> time =        78,400 ns
+QuadraticTime: n =       2,048 --> time =       301,500 ns
+QuadraticTime: n =       4,096 --> time =     1,186,100 ns
+QuadraticTime: n =       8,192 --> time =     4,811,500 ns
+QuadraticTime: n =      16,384 --> time =    19,407,300 ns
+QuadraticTime: n =      32,768 --> time =    80,940,900 ns
+QuadraticTime: n =      65,536 --> time =   320,533,100 ns
+QuadraticTime: n =     131,072 --> time = 1,315,744,600 ns
+
+--- LogarithmicTime (warming up 2 of 3) ---
+LogarithmicTime: n =          32 --> time =       154,300 ns
+LogarithmicTime: n =          64 --> time =       111,200 ns
+LogarithmicTime: n =         128 --> time =       340,100 ns
+LogarithmicTime: n =         256 --> time =       395,800 ns
+LogarithmicTime: n =         512 --> time =       252,200 ns
+LogarithmicTime: n =       1,024 --> time =       291,100 ns
+LogarithmicTime: n =       2,048 --> time =       201,000 ns
+LogarithmicTime: n =       4,096 --> time =       329,300 ns
+LogarithmicTime: n =       8,192 --> time =       238,700 ns
+LogarithmicTime: n =      16,384 --> time =       320,000 ns
+LogarithmicTime: n =      32,768 --> time =       412,800 ns
+LogarithmicTime: n =      65,536 --> time =       424,200 ns
+LogarithmicTime: n =     131,072 --> time =       432,100 ns
+LogarithmicTime: n =     262,144 --> time =       352,400 ns
+LogarithmicTime: n =     524,288 --> time =       404,500 ns
+LogarithmicTime: n =   1,048,576 --> time =       492,200 ns
+LogarithmicTime: n =   2,097,152 --> time =       667,000 ns
+LogarithmicTime: n =   4,194,304 --> time =       675,700 ns
+LogarithmicTime: n =   8,388,608 --> time =       742,700 ns
+LogarithmicTime: n =  16,777,216 --> time =       955,300 ns
+LogarithmicTime: n =  33,554,432 --> time =       752,700 ns
+LogarithmicTime: n =  67,108,864 --> time =       673,400 ns
+LogarithmicTime: n = 134,217,728 --> time =       724,400 ns
+LogarithmicTime: n = 268,435,456 --> time =       683,600 ns
+LogarithmicTime: n = 536,870,912 --> time =       838,800 ns
+
+--- QuasiLinearTime (warming up 2 of 3) ---
+QuasiLinearTime: n =          64 --> time =         7,900 ns
+QuasiLinearTime: n =         128 --> time =         6,400 ns
+QuasiLinearTime: n =         256 --> time =        10,200 ns
+QuasiLinearTime: n =         512 --> time =        20,000 ns
+QuasiLinearTime: n =       1,024 --> time =        40,800 ns
+QuasiLinearTime: n =       2,048 --> time =        77,000 ns
+QuasiLinearTime: n =       4,096 --> time =       141,300 ns
+QuasiLinearTime: n =       8,192 --> time =       366,600 ns
+QuasiLinearTime: n =      16,384 --> time =       740,200 ns
+QuasiLinearTime: n =      32,768 --> time =     1,385,500 ns
+QuasiLinearTime: n =      65,536 --> time =     3,074,500 ns
+QuasiLinearTime: n =     131,072 --> time =     6,422,900 ns
+QuasiLinearTime: n =     262,144 --> time =    13,771,200 ns
+QuasiLinearTime: n =     524,288 --> time =    28,659,500 ns
+QuasiLinearTime: n =   1,048,576 --> time =    60,517,800 ns
+QuasiLinearTime: n =   2,097,152 --> time =   128,915,300 ns
+QuasiLinearTime: n =   4,194,304 --> time =   274,436,300 ns
+QuasiLinearTime: n =   8,388,608 --> time =   566,107,100 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,189,349,400 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,480,625,600 ns
+
+===== Warm up 3 of 3 =====
+
+--- ConstantTime (warming up 3 of 3) ---
+ConstantTime: n =          32 --> time =        43,600 ns
+ConstantTime: n =          64 --> time =        39,600 ns
+ConstantTime: n =         128 --> time =        39,600 ns
+ConstantTime: n =         256 --> time =        95,900 ns
+ConstantTime: n =         512 --> time =        36,400 ns
+ConstantTime: n =       1,024 --> time =        39,100 ns
+ConstantTime: n =       2,048 --> time =        49,300 ns
+ConstantTime: n =       4,096 --> time =        38,900 ns
+ConstantTime: n =       8,192 --> time =        38,100 ns
+ConstantTime: n =      16,384 --> time =        37,100 ns
+ConstantTime: n =      32,768 --> time =        39,000 ns
+ConstantTime: n =      65,536 --> time =        68,700 ns
+ConstantTime: n =     131,072 --> time =        54,200 ns
+ConstantTime: n =     262,144 --> time =        44,000 ns
+ConstantTime: n =     524,288 --> time =        77,100 ns
+ConstantTime: n =   1,048,576 --> time =        57,900 ns
+ConstantTime: n =   2,097,152 --> time =        75,200 ns
+ConstantTime: n =   4,194,304 --> time =       103,600 ns
+ConstantTime: n =   8,388,608 --> time =        62,200 ns
+
+--- LinearTime (warming up 3 of 3) ---
+LinearTime: n =          32 --> time =           400 ns
+LinearTime: n =          64 --> time =           200 ns
+LinearTime: n =         128 --> time =           100 ns
+LinearTime: n =         256 --> time =           200 ns
+LinearTime: n =         512 --> time =           400 ns
+LinearTime: n =       1,024 --> time =           400 ns
+LinearTime: n =       2,048 --> time =           700 ns
+LinearTime: n =       4,096 --> time =         1,300 ns
+LinearTime: n =       8,192 --> time =         2,500 ns
+LinearTime: n =      16,384 --> time =        20,800 ns
+LinearTime: n =      32,768 --> time =         9,800 ns
+LinearTime: n =      65,536 --> time =        35,000 ns
+LinearTime: n =     131,072 --> time =        73,500 ns
+LinearTime: n =     262,144 --> time =        94,800 ns
+LinearTime: n =     524,288 --> time =       200,500 ns
+LinearTime: n =   1,048,576 --> time =       435,500 ns
+LinearTime: n =   2,097,152 --> time =     1,441,000 ns
+LinearTime: n =   4,194,304 --> time =     1,552,700 ns
+LinearTime: n =   8,388,608 --> time =     3,117,200 ns
+LinearTime: n =  16,777,216 --> time =     5,941,200 ns
+LinearTime: n =  33,554,432 --> time =    12,615,300 ns
+LinearTime: n =  67,108,864 --> time =    24,837,900 ns
+LinearTime: n = 134,217,728 --> time =    42,920,900 ns
+LinearTime: n = 268,435,456 --> time =    81,340,200 ns
+LinearTime: n = 536,870,912 --> time =   165,891,100 ns
+
+--- QuadraticTime (warming up 3 of 3) ---
+QuadraticTime: n =          32 --> time =         2,800 ns
+QuadraticTime: n =          64 --> time =         2,000 ns
+QuadraticTime: n =         128 --> time =         3,500 ns
+QuadraticTime: n =         256 --> time =         7,700 ns
+QuadraticTime: n =         512 --> time =        22,300 ns
+QuadraticTime: n =       1,024 --> time =        92,400 ns
+QuadraticTime: n =       2,048 --> time =       472,800 ns
+QuadraticTime: n =       4,096 --> time =     1,663,300 ns
+QuadraticTime: n =       8,192 --> time =     5,447,900 ns
+QuadraticTime: n =      16,384 --> time =    22,826,700 ns
+QuadraticTime: n =      32,768 --> time =    87,393,400 ns
+QuadraticTime: n =      65,536 --> time =   337,874,500 ns
+QuadraticTime: n =     131,072 --> time = 1,389,675,800 ns
+
+--- LogarithmicTime (warming up 3 of 3) ---
+LogarithmicTime: n =          32 --> time =       150,800 ns
+LogarithmicTime: n =          64 --> time =       111,300 ns
+LogarithmicTime: n =         128 --> time =       219,900 ns
+LogarithmicTime: n =         256 --> time =       268,400 ns
+LogarithmicTime: n =         512 --> time =       266,700 ns
+LogarithmicTime: n =       1,024 --> time =       294,700 ns
+LogarithmicTime: n =       2,048 --> time =       201,200 ns
+LogarithmicTime: n =       4,096 --> time =       352,300 ns
+LogarithmicTime: n =       8,192 --> time =       348,700 ns
+LogarithmicTime: n =      16,384 --> time =       360,600 ns
+LogarithmicTime: n =      32,768 --> time =       400,400 ns
+LogarithmicTime: n =      65,536 --> time =       385,500 ns
+LogarithmicTime: n =     131,072 --> time =       445,800 ns
+LogarithmicTime: n =     262,144 --> time =       329,700 ns
+LogarithmicTime: n =     524,288 --> time =       722,600 ns
+LogarithmicTime: n =   1,048,576 --> time =       820,800 ns
+LogarithmicTime: n =   2,097,152 --> time =       629,700 ns
+LogarithmicTime: n =   4,194,304 --> time =       666,900 ns
+LogarithmicTime: n =   8,388,608 --> time =       677,500 ns
+LogarithmicTime: n =  16,777,216 --> time =       780,400 ns
+LogarithmicTime: n =  33,554,432 --> time =       630,600 ns
+LogarithmicTime: n =  67,108,864 --> time =       707,700 ns
+LogarithmicTime: n = 134,217,728 --> time =       694,100 ns
+LogarithmicTime: n = 268,435,456 --> time =       878,400 ns
+LogarithmicTime: n = 536,870,912 --> time =       899,400 ns
+
+--- QuasiLinearTime (warming up 3 of 3) ---
+QuasiLinearTime: n =          64 --> time =         8,500 ns
+QuasiLinearTime: n =         128 --> time =         4,800 ns
+QuasiLinearTime: n =         256 --> time =        11,500 ns
+QuasiLinearTime: n =         512 --> time =        18,800 ns
+QuasiLinearTime: n =       1,024 --> time =        30,600 ns
+QuasiLinearTime: n =       2,048 --> time =        65,700 ns
+QuasiLinearTime: n =       4,096 --> time =       136,600 ns
+QuasiLinearTime: n =       8,192 --> time =       307,500 ns
+QuasiLinearTime: n =      16,384 --> time =       642,000 ns
+QuasiLinearTime: n =      32,768 --> time =     1,365,800 ns
+QuasiLinearTime: n =      65,536 --> time =     2,949,500 ns
+QuasiLinearTime: n =     131,072 --> time =     6,320,000 ns
+QuasiLinearTime: n =     262,144 --> time =    13,605,100 ns
+QuasiLinearTime: n =     524,288 --> time =    28,629,600 ns
+QuasiLinearTime: n =   1,048,576 --> time =    61,497,900 ns
+QuasiLinearTime: n =   2,097,152 --> time =   128,034,100 ns
+QuasiLinearTime: n =   4,194,304 --> time =   274,630,000 ns
+QuasiLinearTime: n =   8,388,608 --> time =   566,202,100 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,189,459,600 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,476,791,000 ns
+
+===== Iteration 1 of 5 =====
+
+--- ConstantTime (measuring 1 of 5) ---
+ConstantTime: n =          32 --> time =        55,600 ns
+ConstantTime: n =          64 --> time =        39,200 ns
+ConstantTime: n =         128 --> time =        37,600 ns
+ConstantTime: n =         256 --> time =        45,600 ns
+ConstantTime: n =         512 --> time =        39,200 ns
+ConstantTime: n =       1,024 --> time =        52,800 ns
+ConstantTime: n =       2,048 --> time =        50,900 ns
+ConstantTime: n =       4,096 --> time =        71,500 ns
+ConstantTime: n =       8,192 --> time =        50,700 ns
+ConstantTime: n =      16,384 --> time =        60,800 ns
+ConstantTime: n =      32,768 --> time =        57,500 ns
+ConstantTime: n =      65,536 --> time =        48,900 ns
+ConstantTime: n =     131,072 --> time =        84,700 ns
+ConstantTime: n =     262,144 --> time =        45,100 ns
+ConstantTime: n =     524,288 --> time =        45,900 ns
+ConstantTime: n =   1,048,576 --> time =        44,600 ns
+ConstantTime: n =   2,097,152 --> time =        45,900 ns
+ConstantTime: n =   4,194,304 --> time =        48,500 ns
+ConstantTime: n =   8,388,608 --> time =        51,100 ns
+
+--- LinearTime (measuring 1 of 5) ---
+LinearTime: n =          32 --> time =           400 ns
+LinearTime: n =          64 --> time =           200 ns
+LinearTime: n =         128 --> time =           200 ns
+LinearTime: n =         256 --> time =           300 ns
+LinearTime: n =         512 --> time =           300 ns
+LinearTime: n =       1,024 --> time =           800 ns
+LinearTime: n =       2,048 --> time =           900 ns
+LinearTime: n =       4,096 --> time =         1,300 ns
+LinearTime: n =       8,192 --> time =         2,600 ns
+LinearTime: n =      16,384 --> time =         4,900 ns
+LinearTime: n =      32,768 --> time =         9,800 ns
+LinearTime: n =      65,536 --> time =        21,300 ns
+LinearTime: n =     131,072 --> time =        44,700 ns
+LinearTime: n =     262,144 --> time =        93,100 ns
+LinearTime: n =     524,288 --> time =       159,800 ns
+LinearTime: n =   1,048,576 --> time =       323,600 ns
+LinearTime: n =   2,097,152 --> time =       940,400 ns
+LinearTime: n =   4,194,304 --> time =     1,576,100 ns
+LinearTime: n =   8,388,608 --> time =     3,130,400 ns
+LinearTime: n =  16,777,216 --> time =     6,233,100 ns
+LinearTime: n =  33,554,432 --> time =    12,755,000 ns
+LinearTime: n =  67,108,864 --> time =    20,627,400 ns
+LinearTime: n = 134,217,728 --> time =    42,394,900 ns
+LinearTime: n = 268,435,456 --> time =    82,715,300 ns
+LinearTime: n = 536,870,912 --> time =   164,736,400 ns
+
+--- QuadraticTime (measuring 1 of 5) ---
+QuadraticTime: n =          32 --> time =         2,200 ns
+QuadraticTime: n =          64 --> time =         2,400 ns
+QuadraticTime: n =         128 --> time =         2,700 ns
+QuadraticTime: n =         256 --> time =         6,700 ns
+QuadraticTime: n =         512 --> time =        21,500 ns
+QuadraticTime: n =       1,024 --> time =        78,400 ns
+QuadraticTime: n =       2,048 --> time =       293,400 ns
+QuadraticTime: n =       4,096 --> time =     1,179,600 ns
+QuadraticTime: n =       8,192 --> time =     4,702,000 ns
+QuadraticTime: n =      16,384 --> time =    19,310,100 ns
+QuadraticTime: n =      32,768 --> time =    83,652,600 ns
+QuadraticTime: n =      65,536 --> time =   319,905,300 ns
+QuadraticTime: n =     131,072 --> time = 1,311,650,800 ns
+
+--- LogarithmicTime (measuring 1 of 5) ---
+LogarithmicTime: n =          32 --> time =       148,800 ns
+LogarithmicTime: n =          64 --> time =       111,500 ns
+LogarithmicTime: n =         128 --> time =       255,500 ns
+LogarithmicTime: n =         256 --> time =       266,100 ns
+LogarithmicTime: n =         512 --> time =       261,500 ns
+LogarithmicTime: n =       1,024 --> time =       309,600 ns
+LogarithmicTime: n =       2,048 --> time =       376,200 ns
+LogarithmicTime: n =       4,096 --> time =       343,300 ns
+LogarithmicTime: n =       8,192 --> time =       550,300 ns
+LogarithmicTime: n =      16,384 --> time =       332,400 ns
+LogarithmicTime: n =      32,768 --> time =       484,200 ns
+LogarithmicTime: n =      65,536 --> time =       549,100 ns
+LogarithmicTime: n =     131,072 --> time =       676,000 ns
+LogarithmicTime: n =     262,144 --> time =       354,000 ns
+LogarithmicTime: n =     524,288 --> time =       618,900 ns
+LogarithmicTime: n =   1,048,576 --> time =       634,400 ns
+LogarithmicTime: n =   2,097,152 --> time =       949,000 ns
+LogarithmicTime: n =   4,194,304 --> time =     1,115,500 ns
+LogarithmicTime: n =   8,388,608 --> time =       746,400 ns
+LogarithmicTime: n =  16,777,216 --> time =       689,100 ns
+LogarithmicTime: n =  33,554,432 --> time =       761,300 ns
+LogarithmicTime: n =  67,108,864 --> time =       815,800 ns
+LogarithmicTime: n = 134,217,728 --> time =       737,300 ns
+LogarithmicTime: n = 268,435,456 --> time =     1,334,100 ns
+LogarithmicTime: n = 536,870,912 --> time =     1,107,400 ns
+
+--- QuasiLinearTime (measuring 1 of 5) ---
+QuasiLinearTime: n =          64 --> time =         5,500 ns
+QuasiLinearTime: n =         128 --> time =         7,200 ns
+QuasiLinearTime: n =         256 --> time =        11,600 ns
+QuasiLinearTime: n =         512 --> time =        15,400 ns
+QuasiLinearTime: n =       1,024 --> time =        38,400 ns
+QuasiLinearTime: n =       2,048 --> time =        68,700 ns
+QuasiLinearTime: n =       4,096 --> time =       141,400 ns
+QuasiLinearTime: n =       8,192 --> time =       323,200 ns
+QuasiLinearTime: n =      16,384 --> time =       698,800 ns
+QuasiLinearTime: n =      32,768 --> time =     1,413,600 ns
+QuasiLinearTime: n =      65,536 --> time =     3,008,200 ns
+QuasiLinearTime: n =     131,072 --> time =     6,464,800 ns
+QuasiLinearTime: n =     262,144 --> time =    13,653,400 ns
+QuasiLinearTime: n =     524,288 --> time =    29,127,800 ns
+QuasiLinearTime: n =   1,048,576 --> time =    60,820,100 ns
+QuasiLinearTime: n =   2,097,152 --> time =   132,407,400 ns
+QuasiLinearTime: n =   4,194,304 --> time =   270,546,400 ns
+QuasiLinearTime: n =   8,388,608 --> time =   563,423,900 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,205,931,700 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,467,129,300 ns
+
+===== Results after iteration 1 of 5 =====
+
+--- ConstantTime (results 1 of 5) ---
+ConstantTime, n =          32 -> fastest:        55,600 ns, median:        55,600 ns
+ConstantTime, n =          64 -> fastest:        39,200 ns, median:        39,200 ns
+ConstantTime, n =         128 -> fastest:        37,600 ns, median:        37,600 ns
+ConstantTime, n =         256 -> fastest:        45,600 ns, median:        45,600 ns
+ConstantTime, n =         512 -> fastest:        39,200 ns, median:        39,200 ns
+ConstantTime, n =       1,024 -> fastest:        52,800 ns, median:        52,800 ns
+ConstantTime, n =       2,048 -> fastest:        50,900 ns, median:        50,900 ns
+ConstantTime, n =       4,096 -> fastest:        71,500 ns, median:        71,500 ns
+ConstantTime, n =       8,192 -> fastest:        50,700 ns, median:        50,700 ns
+ConstantTime, n =      16,384 -> fastest:        60,800 ns, median:        60,800 ns
+ConstantTime, n =      32,768 -> fastest:        57,500 ns, median:        57,500 ns
+ConstantTime, n =      65,536 -> fastest:        48,900 ns, median:        48,900 ns
+ConstantTime, n =     131,072 -> fastest:        84,700 ns, median:        84,700 ns
+ConstantTime, n =     262,144 -> fastest:        45,100 ns, median:        45,100 ns
+ConstantTime, n =     524,288 -> fastest:        45,900 ns, median:        45,900 ns
+ConstantTime, n =   1,048,576 -> fastest:        44,600 ns, median:        44,600 ns
+ConstantTime, n =   2,097,152 -> fastest:        45,900 ns, median:        45,900 ns
+ConstantTime, n =   4,194,304 -> fastest:        48,500 ns, median:        48,500 ns
+ConstantTime, n =   8,388,608 -> fastest:        51,100 ns, median:        51,100 ns
+
+--- LinearTime (results 1 of 5) ---
+LinearTime, n =          32 -> fastest:           400 ns, median:           400 ns
+LinearTime, n =          64 -> fastest:           200 ns, median:           200 ns
+LinearTime, n =         128 -> fastest:           200 ns, median:           200 ns
+LinearTime, n =         256 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =         512 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =       1,024 -> fastest:           800 ns, median:           800 ns
+LinearTime, n =       2,048 -> fastest:           900 ns, median:           900 ns
+LinearTime, n =       4,096 -> fastest:         1,300 ns, median:         1,300 ns
+LinearTime, n =       8,192 -> fastest:         2,600 ns, median:         2,600 ns
+LinearTime, n =      16,384 -> fastest:         4,900 ns, median:         4,900 ns
+LinearTime, n =      32,768 -> fastest:         9,800 ns, median:         9,800 ns
+LinearTime, n =      65,536 -> fastest:        21,300 ns, median:        21,300 ns
+LinearTime, n =     131,072 -> fastest:        44,700 ns, median:        44,700 ns
+LinearTime, n =     262,144 -> fastest:        93,100 ns, median:        93,100 ns
+LinearTime, n =     524,288 -> fastest:       159,800 ns, median:       159,800 ns
+LinearTime, n =   1,048,576 -> fastest:       323,600 ns, median:       323,600 ns
+LinearTime, n =   2,097,152 -> fastest:       940,400 ns, median:       940,400 ns
+LinearTime, n =   4,194,304 -> fastest:     1,576,100 ns, median:     1,576,100 ns
+LinearTime, n =   8,388,608 -> fastest:     3,130,400 ns, median:     3,130,400 ns
+LinearTime, n =  16,777,216 -> fastest:     6,233,100 ns, median:     6,233,100 ns
+LinearTime, n =  33,554,432 -> fastest:    12,755,000 ns, median:    12,755,000 ns
+LinearTime, n =  67,108,864 -> fastest:    20,627,400 ns, median:    20,627,400 ns
+LinearTime, n = 134,217,728 -> fastest:    42,394,900 ns, median:    42,394,900 ns
+LinearTime, n = 268,435,456 -> fastest:    82,715,300 ns, median:    82,715,300 ns
+LinearTime, n = 536,870,912 -> fastest:   164,736,400 ns, median:   164,736,400 ns
+
+--- QuadraticTime (results 1 of 5) ---
+QuadraticTime, n =          32 -> fastest:         2,200 ns, median:         2,200 ns
+QuadraticTime, n =          64 -> fastest:         2,400 ns, median:         2,400 ns
+QuadraticTime, n =         128 -> fastest:         2,700 ns, median:         2,700 ns
+QuadraticTime, n =         256 -> fastest:         6,700 ns, median:         6,700 ns
+QuadraticTime, n =         512 -> fastest:        21,500 ns, median:        21,500 ns
+QuadraticTime, n =       1,024 -> fastest:        78,400 ns, median:        78,400 ns
+QuadraticTime, n =       2,048 -> fastest:       293,400 ns, median:       293,400 ns
+QuadraticTime, n =       4,096 -> fastest:     1,179,600 ns, median:     1,179,600 ns
+QuadraticTime, n =       8,192 -> fastest:     4,702,000 ns, median:     4,702,000 ns
+QuadraticTime, n =      16,384 -> fastest:    19,310,100 ns, median:    19,310,100 ns
+QuadraticTime, n =      32,768 -> fastest:    83,652,600 ns, median:    83,652,600 ns
+QuadraticTime, n =      65,536 -> fastest:   319,905,300 ns, median:   319,905,300 ns
+QuadraticTime, n =     131,072 -> fastest: 1,311,650,800 ns, median: 1,311,650,800 ns
+
+--- LogarithmicTime (results 1 of 5) ---
+LogarithmicTime, n =          32 -> fastest:       148,800 ns, median:       148,800 ns
+LogarithmicTime, n =          64 -> fastest:       111,500 ns, median:       111,500 ns
+LogarithmicTime, n =         128 -> fastest:       255,500 ns, median:       255,500 ns
+LogarithmicTime, n =         256 -> fastest:       266,100 ns, median:       266,100 ns
+LogarithmicTime, n =         512 -> fastest:       261,500 ns, median:       261,500 ns
+LogarithmicTime, n =       1,024 -> fastest:       309,600 ns, median:       309,600 ns
+LogarithmicTime, n =       2,048 -> fastest:       376,200 ns, median:       376,200 ns
+LogarithmicTime, n =       4,096 -> fastest:       343,300 ns, median:       343,300 ns
+LogarithmicTime, n =       8,192 -> fastest:       550,300 ns, median:       550,300 ns
+LogarithmicTime, n =      16,384 -> fastest:       332,400 ns, median:       332,400 ns
+LogarithmicTime, n =      32,768 -> fastest:       484,200 ns, median:       484,200 ns
+LogarithmicTime, n =      65,536 -> fastest:       549,100 ns, median:       549,100 ns
+LogarithmicTime, n =     131,072 -> fastest:       676,000 ns, median:       676,000 ns
+LogarithmicTime, n =     262,144 -> fastest:       354,000 ns, median:       354,000 ns
+LogarithmicTime, n =     524,288 -> fastest:       618,900 ns, median:       618,900 ns
+LogarithmicTime, n =   1,048,576 -> fastest:       634,400 ns, median:       634,400 ns
+LogarithmicTime, n =   2,097,152 -> fastest:       949,000 ns, median:       949,000 ns
+LogarithmicTime, n =   4,194,304 -> fastest:     1,115,500 ns, median:     1,115,500 ns
+LogarithmicTime, n =   8,388,608 -> fastest:       746,400 ns, median:       746,400 ns
+LogarithmicTime, n =  16,777,216 -> fastest:       689,100 ns, median:       689,100 ns
+LogarithmicTime, n =  33,554,432 -> fastest:       761,300 ns, median:       761,300 ns
+LogarithmicTime, n =  67,108,864 -> fastest:       815,800 ns, median:       815,800 ns
+LogarithmicTime, n = 134,217,728 -> fastest:       737,300 ns, median:       737,300 ns
+LogarithmicTime, n = 268,435,456 -> fastest:     1,334,100 ns, median:     1,334,100 ns
+LogarithmicTime, n = 536,870,912 -> fastest:     1,107,400 ns, median:     1,107,400 ns
+
+--- QuasiLinearTime (results 1 of 5) ---
+QuasiLinearTime, n =          64 -> fastest:         5,500 ns, median:         5,500 ns
+QuasiLinearTime, n =         128 -> fastest:         7,200 ns, median:         7,200 ns
+QuasiLinearTime, n =         256 -> fastest:        11,600 ns, median:        11,600 ns
+QuasiLinearTime, n =         512 -> fastest:        15,400 ns, median:        15,400 ns
+QuasiLinearTime, n =       1,024 -> fastest:        38,400 ns, median:        38,400 ns
+QuasiLinearTime, n =       2,048 -> fastest:        68,700 ns, median:        68,700 ns
+QuasiLinearTime, n =       4,096 -> fastest:       141,400 ns, median:       141,400 ns
+QuasiLinearTime, n =       8,192 -> fastest:       323,200 ns, median:       323,200 ns
+QuasiLinearTime, n =      16,384 -> fastest:       698,800 ns, median:       698,800 ns
+QuasiLinearTime, n =      32,768 -> fastest:     1,413,600 ns, median:     1,413,600 ns
+QuasiLinearTime, n =      65,536 -> fastest:     3,008,200 ns, median:     3,008,200 ns
+QuasiLinearTime, n =     131,072 -> fastest:     6,464,800 ns, median:     6,464,800 ns
+QuasiLinearTime, n =     262,144 -> fastest:    13,653,400 ns, median:    13,653,400 ns
+QuasiLinearTime, n =     524,288 -> fastest:    29,127,800 ns, median:    29,127,800 ns
+QuasiLinearTime, n =   1,048,576 -> fastest:    60,820,100 ns, median:    60,820,100 ns
+QuasiLinearTime, n =   2,097,152 -> fastest:   132,407,400 ns, median:   132,407,400 ns
+QuasiLinearTime, n =   4,194,304 -> fastest:   270,546,400 ns, median:   270,546,400 ns
+QuasiLinearTime, n =   8,388,608 -> fastest:   563,423,900 ns, median:   563,423,900 ns
+QuasiLinearTime, n =  16,777,216 -> fastest: 1,205,931,700 ns, median: 1,205,931,700 ns
+QuasiLinearTime, n =  33,554,432 -> fastest: 2,467,129,300 ns, median: 2,467,129,300 ns
+
+===== Iteration 2 of 5 =====
+
+--- ConstantTime (measuring 2 of 5) ---
+ConstantTime: n =          32 --> time =        31,700 ns
+ConstantTime: n =          64 --> time =        64,900 ns
+ConstantTime: n =         128 --> time =        28,800 ns
+ConstantTime: n =         256 --> time =        30,100 ns
+ConstantTime: n =         512 --> time =        31,300 ns
+ConstantTime: n =       1,024 --> time =        30,000 ns
+ConstantTime: n =       2,048 --> time =        30,200 ns
+ConstantTime: n =       4,096 --> time =        30,600 ns
+ConstantTime: n =       8,192 --> time =        28,300 ns
+ConstantTime: n =      16,384 --> time =        60,600 ns
+ConstantTime: n =      32,768 --> time =        29,900 ns
+ConstantTime: n =      65,536 --> time =        30,500 ns
+ConstantTime: n =     131,072 --> time =        42,500 ns
+ConstantTime: n =     262,144 --> time =        34,600 ns
+ConstantTime: n =     524,288 --> time =        48,500 ns
+ConstantTime: n =   1,048,576 --> time =        44,600 ns
+ConstantTime: n =   2,097,152 --> time =        46,900 ns
+ConstantTime: n =   4,194,304 --> time =       110,700 ns
+ConstantTime: n =   8,388,608 --> time =        94,700 ns
+
+--- LinearTime (measuring 2 of 5) ---
+LinearTime: n =          32 --> time =           400 ns
+LinearTime: n =          64 --> time =           300 ns
+LinearTime: n =         128 --> time =           200 ns
+LinearTime: n =         256 --> time =           300 ns
+LinearTime: n =         512 --> time =           300 ns
+LinearTime: n =       1,024 --> time =           700 ns
+LinearTime: n =       2,048 --> time =         1,000 ns
+LinearTime: n =       4,096 --> time =         1,800 ns
+LinearTime: n =       8,192 --> time =         3,200 ns
+LinearTime: n =      16,384 --> time =         5,300 ns
+LinearTime: n =      32,768 --> time =        11,500 ns
+LinearTime: n =      65,536 --> time =        23,400 ns
+LinearTime: n =     131,072 --> time =        47,300 ns
+LinearTime: n =     262,144 --> time =       110,200 ns
+LinearTime: n =     524,288 --> time =       204,400 ns
+LinearTime: n =   1,048,576 --> time =       456,100 ns
+LinearTime: n =   2,097,152 --> time =       797,800 ns
+LinearTime: n =   4,194,304 --> time =     1,561,000 ns
+LinearTime: n =   8,388,608 --> time =     3,215,400 ns
+LinearTime: n =  16,777,216 --> time =     5,150,700 ns
+LinearTime: n =  33,554,432 --> time =    12,565,300 ns
+LinearTime: n =  67,108,864 --> time =    22,456,300 ns
+LinearTime: n = 134,217,728 --> time =    44,081,400 ns
+LinearTime: n = 268,435,456 --> time =    81,241,900 ns
+LinearTime: n = 536,870,912 --> time =   168,681,700 ns
+
+--- QuadraticTime (measuring 2 of 5) ---
+QuadraticTime: n =          32 --> time =         1,900 ns
+QuadraticTime: n =          64 --> time =         1,500 ns
+QuadraticTime: n =         128 --> time =         2,800 ns
+QuadraticTime: n =         256 --> time =         7,000 ns
+QuadraticTime: n =         512 --> time =        21,300 ns
+QuadraticTime: n =       1,024 --> time =        77,700 ns
+QuadraticTime: n =       2,048 --> time =       295,000 ns
+QuadraticTime: n =       4,096 --> time =     1,154,000 ns
+QuadraticTime: n =       8,192 --> time =     4,648,400 ns
+QuadraticTime: n =      16,384 --> time =    19,189,100 ns
+QuadraticTime: n =      32,768 --> time =    79,896,000 ns
+QuadraticTime: n =      65,536 --> time =   330,530,600 ns
+QuadraticTime: n =     131,072 --> time = 1,310,702,600 ns
+
+--- LogarithmicTime (measuring 2 of 5) ---
+LogarithmicTime: n =          32 --> time =       107,200 ns
+LogarithmicTime: n =          64 --> time =       178,100 ns
+LogarithmicTime: n =         128 --> time =       142,000 ns
+LogarithmicTime: n =         256 --> time =       166,100 ns
+LogarithmicTime: n =         512 --> time =       288,600 ns
+LogarithmicTime: n =       1,024 --> time =       206,900 ns
+LogarithmicTime: n =       2,048 --> time =       257,400 ns
+LogarithmicTime: n =       4,096 --> time =       400,900 ns
+LogarithmicTime: n =       8,192 --> time =       380,000 ns
+LogarithmicTime: n =      16,384 --> time =       408,600 ns
+LogarithmicTime: n =      32,768 --> time =       439,500 ns
+LogarithmicTime: n =      65,536 --> time =       431,900 ns
+LogarithmicTime: n =     131,072 --> time =       496,700 ns
+LogarithmicTime: n =     262,144 --> time =       534,400 ns
+LogarithmicTime: n =     524,288 --> time =       852,100 ns
+LogarithmicTime: n =   1,048,576 --> time =       857,400 ns
+LogarithmicTime: n =   2,097,152 --> time =       564,600 ns
+LogarithmicTime: n =   4,194,304 --> time =       574,400 ns
+LogarithmicTime: n =   8,388,608 --> time =     1,207,300 ns
+LogarithmicTime: n =  16,777,216 --> time =       734,700 ns
+LogarithmicTime: n =  33,554,432 --> time =       683,200 ns
+LogarithmicTime: n =  67,108,864 --> time =       972,100 ns
+LogarithmicTime: n = 134,217,728 --> time =       887,500 ns
+LogarithmicTime: n = 268,435,456 --> time =     1,585,400 ns
+LogarithmicTime: n = 536,870,912 --> time =     1,320,400 ns
+
+--- QuasiLinearTime (measuring 2 of 5) ---
+QuasiLinearTime: n =          64 --> time =         7,700 ns
+QuasiLinearTime: n =         128 --> time =         5,500 ns
+QuasiLinearTime: n =         256 --> time =        10,100 ns
+QuasiLinearTime: n =         512 --> time =        24,100 ns
+QuasiLinearTime: n =       1,024 --> time =        34,900 ns
+QuasiLinearTime: n =       2,048 --> time =        67,900 ns
+QuasiLinearTime: n =       4,096 --> time =       241,300 ns
+QuasiLinearTime: n =       8,192 --> time =       298,400 ns
+QuasiLinearTime: n =      16,384 --> time =       793,200 ns
+QuasiLinearTime: n =      32,768 --> time =     1,464,800 ns
+QuasiLinearTime: n =      65,536 --> time =     2,956,900 ns
+QuasiLinearTime: n =     131,072 --> time =     6,554,200 ns
+QuasiLinearTime: n =     262,144 --> time =    13,359,300 ns
+QuasiLinearTime: n =     524,288 --> time =    29,558,600 ns
+QuasiLinearTime: n =   1,048,576 --> time =    62,492,400 ns
+QuasiLinearTime: n =   2,097,152 --> time =   131,036,600 ns
+QuasiLinearTime: n =   4,194,304 --> time =   271,716,500 ns
+QuasiLinearTime: n =   8,388,608 --> time =   567,744,300 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,188,103,000 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,478,637,100 ns
+
+===== Results after iteration 2 of 5 =====
+
+--- ConstantTime (results 2 of 5) ---
+ConstantTime, n =          32 -> fastest:        31,700 ns, median:        43,650 ns
+ConstantTime, n =          64 -> fastest:        39,200 ns, median:        52,050 ns
+ConstantTime, n =         128 -> fastest:        28,800 ns, median:        33,200 ns
+ConstantTime, n =         256 -> fastest:        30,100 ns, median:        37,850 ns
+ConstantTime, n =         512 -> fastest:        31,300 ns, median:        35,250 ns
+ConstantTime, n =       1,024 -> fastest:        30,000 ns, median:        41,400 ns
+ConstantTime, n =       2,048 -> fastest:        30,200 ns, median:        40,550 ns
+ConstantTime, n =       4,096 -> fastest:        30,600 ns, median:        51,050 ns
+ConstantTime, n =       8,192 -> fastest:        28,300 ns, median:        39,500 ns
+ConstantTime, n =      16,384 -> fastest:        60,600 ns, median:        60,700 ns
+ConstantTime, n =      32,768 -> fastest:        29,900 ns, median:        43,700 ns
+ConstantTime, n =      65,536 -> fastest:        30,500 ns, median:        39,700 ns
+ConstantTime, n =     131,072 -> fastest:        42,500 ns, median:        63,600 ns
+ConstantTime, n =     262,144 -> fastest:        34,600 ns, median:        39,850 ns
+ConstantTime, n =     524,288 -> fastest:        45,900 ns, median:        47,200 ns
+ConstantTime, n =   1,048,576 -> fastest:        44,600 ns, median:        44,600 ns
+ConstantTime, n =   2,097,152 -> fastest:        45,900 ns, median:        46,400 ns
+ConstantTime, n =   4,194,304 -> fastest:        48,500 ns, median:        79,600 ns
+ConstantTime, n =   8,388,608 -> fastest:        51,100 ns, median:        72,900 ns
+
+--- LinearTime (results 2 of 5) ---
+LinearTime, n =          32 -> fastest:           400 ns, median:           400 ns
+LinearTime, n =          64 -> fastest:           200 ns, median:           250 ns
+LinearTime, n =         128 -> fastest:           200 ns, median:           200 ns
+LinearTime, n =         256 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =         512 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =       1,024 -> fastest:           700 ns, median:           750 ns
+LinearTime, n =       2,048 -> fastest:           900 ns, median:           950 ns
+LinearTime, n =       4,096 -> fastest:         1,300 ns, median:         1,550 ns
+LinearTime, n =       8,192 -> fastest:         2,600 ns, median:         2,900 ns
+LinearTime, n =      16,384 -> fastest:         4,900 ns, median:         5,100 ns
+LinearTime, n =      32,768 -> fastest:         9,800 ns, median:        10,650 ns
+LinearTime, n =      65,536 -> fastest:        21,300 ns, median:        22,350 ns
+LinearTime, n =     131,072 -> fastest:        44,700 ns, median:        46,000 ns
+LinearTime, n =     262,144 -> fastest:        93,100 ns, median:       101,650 ns
+LinearTime, n =     524,288 -> fastest:       159,800 ns, median:       182,100 ns
+LinearTime, n =   1,048,576 -> fastest:       323,600 ns, median:       389,850 ns
+LinearTime, n =   2,097,152 -> fastest:       797,800 ns, median:       869,100 ns
+LinearTime, n =   4,194,304 -> fastest:     1,561,000 ns, median:     1,568,550 ns
+LinearTime, n =   8,388,608 -> fastest:     3,130,400 ns, median:     3,172,900 ns
+LinearTime, n =  16,777,216 -> fastest:     5,150,700 ns, median:     5,691,900 ns
+LinearTime, n =  33,554,432 -> fastest:    12,565,300 ns, median:    12,660,150 ns
+LinearTime, n =  67,108,864 -> fastest:    20,627,400 ns, median:    21,541,850 ns
+LinearTime, n = 134,217,728 -> fastest:    42,394,900 ns, median:    43,238,150 ns
+LinearTime, n = 268,435,456 -> fastest:    81,241,900 ns, median:    81,978,600 ns
+LinearTime, n = 536,870,912 -> fastest:   164,736,400 ns, median:   166,709,050 ns
+
+--- QuadraticTime (results 2 of 5) ---
+QuadraticTime, n =          32 -> fastest:         1,900 ns, median:         2,050 ns
+QuadraticTime, n =          64 -> fastest:         1,500 ns, median:         1,950 ns
+QuadraticTime, n =         128 -> fastest:         2,700 ns, median:         2,750 ns
+QuadraticTime, n =         256 -> fastest:         6,700 ns, median:         6,850 ns
+QuadraticTime, n =         512 -> fastest:        21,300 ns, median:        21,400 ns
+QuadraticTime, n =       1,024 -> fastest:        77,700 ns, median:        78,050 ns
+QuadraticTime, n =       2,048 -> fastest:       293,400 ns, median:       294,200 ns
+QuadraticTime, n =       4,096 -> fastest:     1,154,000 ns, median:     1,166,800 ns
+QuadraticTime, n =       8,192 -> fastest:     4,648,400 ns, median:     4,675,200 ns
+QuadraticTime, n =      16,384 -> fastest:    19,189,100 ns, median:    19,249,600 ns
+QuadraticTime, n =      32,768 -> fastest:    79,896,000 ns, median:    81,774,300 ns
+QuadraticTime, n =      65,536 -> fastest:   319,905,300 ns, median:   325,217,950 ns
+QuadraticTime, n =     131,072 -> fastest: 1,310,702,600 ns, median: 1,311,176,700 ns
+
+--- LogarithmicTime (results 2 of 5) ---
+LogarithmicTime, n =          32 -> fastest:       107,200 ns, median:       128,000 ns
+LogarithmicTime, n =          64 -> fastest:       111,500 ns, median:       144,800 ns
+LogarithmicTime, n =         128 -> fastest:       142,000 ns, median:       198,750 ns
+LogarithmicTime, n =         256 -> fastest:       166,100 ns, median:       216,100 ns
+LogarithmicTime, n =         512 -> fastest:       261,500 ns, median:       275,050 ns
+LogarithmicTime, n =       1,024 -> fastest:       206,900 ns, median:       258,250 ns
+LogarithmicTime, n =       2,048 -> fastest:       257,400 ns, median:       316,800 ns
+LogarithmicTime, n =       4,096 -> fastest:       343,300 ns, median:       372,100 ns
+LogarithmicTime, n =       8,192 -> fastest:       380,000 ns, median:       465,150 ns
+LogarithmicTime, n =      16,384 -> fastest:       332,400 ns, median:       370,500 ns
+LogarithmicTime, n =      32,768 -> fastest:       439,500 ns, median:       461,850 ns
+LogarithmicTime, n =      65,536 -> fastest:       431,900 ns, median:       490,500 ns
+LogarithmicTime, n =     131,072 -> fastest:       496,700 ns, median:       586,350 ns
+LogarithmicTime, n =     262,144 -> fastest:       354,000 ns, median:       444,200 ns
+LogarithmicTime, n =     524,288 -> fastest:       618,900 ns, median:       735,500 ns
+LogarithmicTime, n =   1,048,576 -> fastest:       634,400 ns, median:       745,900 ns
+LogarithmicTime, n =   2,097,152 -> fastest:       564,600 ns, median:       756,800 ns
+LogarithmicTime, n =   4,194,304 -> fastest:       574,400 ns, median:       844,950 ns
+LogarithmicTime, n =   8,388,608 -> fastest:       746,400 ns, median:       976,850 ns
+LogarithmicTime, n =  16,777,216 -> fastest:       689,100 ns, median:       711,900 ns
+LogarithmicTime, n =  33,554,432 -> fastest:       683,200 ns, median:       722,250 ns
+LogarithmicTime, n =  67,108,864 -> fastest:       815,800 ns, median:       893,950 ns
+LogarithmicTime, n = 134,217,728 -> fastest:       737,300 ns, median:       812,400 ns
+LogarithmicTime, n = 268,435,456 -> fastest:     1,334,100 ns, median:     1,459,750 ns
+LogarithmicTime, n = 536,870,912 -> fastest:     1,107,400 ns, median:     1,213,900 ns
+
+--- QuasiLinearTime (results 2 of 5) ---
+QuasiLinearTime, n =          64 -> fastest:         5,500 ns, median:         6,600 ns
+QuasiLinearTime, n =         128 -> fastest:         5,500 ns, median:         6,350 ns
+QuasiLinearTime, n =         256 -> fastest:        10,100 ns, median:        10,850 ns
+QuasiLinearTime, n =         512 -> fastest:        15,400 ns, median:        19,750 ns
+QuasiLinearTime, n =       1,024 -> fastest:        34,900 ns, median:        36,650 ns
+QuasiLinearTime, n =       2,048 -> fastest:        67,900 ns, median:        68,300 ns
+QuasiLinearTime, n =       4,096 -> fastest:       141,400 ns, median:       191,350 ns
+QuasiLinearTime, n =       8,192 -> fastest:       298,400 ns, median:       310,800 ns
+QuasiLinearTime, n =      16,384 -> fastest:       698,800 ns, median:       746,000 ns
+QuasiLinearTime, n =      32,768 -> fastest:     1,413,600 ns, median:     1,439,200 ns
+QuasiLinearTime, n =      65,536 -> fastest:     2,956,900 ns, median:     2,982,550 ns
+QuasiLinearTime, n =     131,072 -> fastest:     6,464,800 ns, median:     6,509,500 ns
+QuasiLinearTime, n =     262,144 -> fastest:    13,359,300 ns, median:    13,506,350 ns
+QuasiLinearTime, n =     524,288 -> fastest:    29,127,800 ns, median:    29,343,200 ns
+QuasiLinearTime, n =   1,048,576 -> fastest:    60,820,100 ns, median:    61,656,250 ns
+QuasiLinearTime, n =   2,097,152 -> fastest:   131,036,600 ns, median:   131,722,000 ns
+QuasiLinearTime, n =   4,194,304 -> fastest:   270,546,400 ns, median:   271,131,450 ns
+QuasiLinearTime, n =   8,388,608 -> fastest:   563,423,900 ns, median:   565,584,100 ns
+QuasiLinearTime, n =  16,777,216 -> fastest: 1,188,103,000 ns, median: 1,197,017,350 ns
+QuasiLinearTime, n =  33,554,432 -> fastest: 2,467,129,300 ns, median: 2,472,883,200 ns
+
+===== Iteration 3 of 5 =====
+
+--- ConstantTime (measuring 3 of 5) ---
+ConstantTime: n =          32 --> time =        44,900 ns
+ConstantTime: n =          64 --> time =        43,000 ns
+ConstantTime: n =         128 --> time =        28,600 ns
+ConstantTime: n =         256 --> time =        30,200 ns
+ConstantTime: n =         512 --> time =        30,200 ns
+ConstantTime: n =       1,024 --> time =        30,000 ns
+ConstantTime: n =       2,048 --> time =        78,100 ns
+ConstantTime: n =       4,096 --> time =        55,500 ns
+ConstantTime: n =       8,192 --> time =        28,700 ns
+ConstantTime: n =      16,384 --> time =        28,200 ns
+ConstantTime: n =      32,768 --> time =        29,200 ns
+ConstantTime: n =      65,536 --> time =        32,200 ns
+ConstantTime: n =     131,072 --> time =        43,500 ns
+ConstantTime: n =     262,144 --> time =        29,800 ns
+ConstantTime: n =     524,288 --> time =        45,300 ns
+ConstantTime: n =   1,048,576 --> time =       112,800 ns
+ConstantTime: n =   2,097,152 --> time =        45,700 ns
+ConstantTime: n =   4,194,304 --> time =        94,300 ns
+ConstantTime: n =   8,388,608 --> time =        92,000 ns
+
+--- LinearTime (measuring 3 of 5) ---
+LinearTime: n =          32 --> time =           500 ns
+LinearTime: n =          64 --> time =           300 ns
+LinearTime: n =         128 --> time =           200 ns
+LinearTime: n =         256 --> time =           200 ns
+LinearTime: n =         512 --> time =           300 ns
+LinearTime: n =       1,024 --> time =           500 ns
+LinearTime: n =       2,048 --> time =           700 ns
+LinearTime: n =       4,096 --> time =         1,300 ns
+LinearTime: n =       8,192 --> time =         3,300 ns
+LinearTime: n =      16,384 --> time =         4,800 ns
+LinearTime: n =      32,768 --> time =         8,800 ns
+LinearTime: n =      65,536 --> time =        17,400 ns
+LinearTime: n =     131,072 --> time =        34,800 ns
+LinearTime: n =     262,144 --> time =        76,600 ns
+LinearTime: n =     524,288 --> time =       189,400 ns
+LinearTime: n =   1,048,576 --> time =       313,200 ns
+LinearTime: n =   2,097,152 --> time =     1,355,200 ns
+LinearTime: n =   4,194,304 --> time =     1,668,200 ns
+LinearTime: n =   8,388,608 --> time =     3,064,400 ns
+LinearTime: n =  16,777,216 --> time =     4,982,200 ns
+LinearTime: n =  33,554,432 --> time =    12,412,200 ns
+LinearTime: n =  67,108,864 --> time =    20,631,700 ns
+LinearTime: n = 134,217,728 --> time =    43,544,500 ns
+LinearTime: n = 268,435,456 --> time =    81,335,900 ns
+LinearTime: n = 536,870,912 --> time =   164,322,600 ns
+
+--- QuadraticTime (measuring 3 of 5) ---
+QuadraticTime: n =          32 --> time =         1,700 ns
+QuadraticTime: n =          64 --> time =         1,900 ns
+QuadraticTime: n =         128 --> time =         3,000 ns
+QuadraticTime: n =         256 --> time =         7,300 ns
+QuadraticTime: n =         512 --> time =        21,100 ns
+QuadraticTime: n =       1,024 --> time =        78,100 ns
+QuadraticTime: n =       2,048 --> time =       299,900 ns
+QuadraticTime: n =       4,096 --> time =     1,204,600 ns
+QuadraticTime: n =       8,192 --> time =     4,720,200 ns
+QuadraticTime: n =      16,384 --> time =    19,440,400 ns
+QuadraticTime: n =      32,768 --> time =    78,416,700 ns
+QuadraticTime: n =      65,536 --> time =   339,014,800 ns
+QuadraticTime: n =     131,072 --> time = 1,323,919,500 ns
+
+--- LogarithmicTime (measuring 3 of 5) ---
+LogarithmicTime: n =          32 --> time =       162,200 ns
+LogarithmicTime: n =          64 --> time =       186,500 ns
+LogarithmicTime: n =         128 --> time =       129,700 ns
+LogarithmicTime: n =         256 --> time =       155,200 ns
+LogarithmicTime: n =         512 --> time =       330,600 ns
+LogarithmicTime: n =       1,024 --> time =       320,400 ns
+LogarithmicTime: n =       2,048 --> time =       307,700 ns
+LogarithmicTime: n =       4,096 --> time =       259,700 ns
+LogarithmicTime: n =       8,192 --> time =       311,700 ns
+LogarithmicTime: n =      16,384 --> time =       514,800 ns
+LogarithmicTime: n =      32,768 --> time =       424,200 ns
+LogarithmicTime: n =      65,536 --> time =       485,200 ns
+LogarithmicTime: n =     131,072 --> time =       363,400 ns
+LogarithmicTime: n =     262,144 --> time =       565,200 ns
+LogarithmicTime: n =     524,288 --> time =       550,200 ns
+LogarithmicTime: n =   1,048,576 --> time =       623,900 ns
+LogarithmicTime: n =   2,097,152 --> time =       942,600 ns
+LogarithmicTime: n =   4,194,304 --> time =       710,600 ns
+LogarithmicTime: n =   8,388,608 --> time =       670,800 ns
+LogarithmicTime: n =  16,777,216 --> time =       700,600 ns
+LogarithmicTime: n =  33,554,432 --> time =     1,208,200 ns
+LogarithmicTime: n =  67,108,864 --> time =       802,800 ns
+LogarithmicTime: n = 134,217,728 --> time =       789,600 ns
+LogarithmicTime: n = 268,435,456 --> time =       786,200 ns
+LogarithmicTime: n = 536,870,912 --> time =       875,700 ns
+
+--- QuasiLinearTime (measuring 3 of 5) ---
+QuasiLinearTime: n =          64 --> time =         8,800 ns
+QuasiLinearTime: n =         128 --> time =         6,900 ns
+QuasiLinearTime: n =         256 --> time =        16,300 ns
+QuasiLinearTime: n =         512 --> time =        16,400 ns
+QuasiLinearTime: n =       1,024 --> time =        31,900 ns
+QuasiLinearTime: n =       2,048 --> time =        66,200 ns
+QuasiLinearTime: n =       4,096 --> time =       149,300 ns
+QuasiLinearTime: n =       8,192 --> time =       314,200 ns
+QuasiLinearTime: n =      16,384 --> time =       627,300 ns
+QuasiLinearTime: n =      32,768 --> time =     1,370,300 ns
+QuasiLinearTime: n =      65,536 --> time =     3,067,100 ns
+QuasiLinearTime: n =     131,072 --> time =     6,540,900 ns
+QuasiLinearTime: n =     262,144 --> time =    14,946,200 ns
+QuasiLinearTime: n =     524,288 --> time =    29,510,100 ns
+QuasiLinearTime: n =   1,048,576 --> time =    62,820,900 ns
+QuasiLinearTime: n =   2,097,152 --> time =   161,279,500 ns
+QuasiLinearTime: n =   4,194,304 --> time =   278,870,500 ns
+QuasiLinearTime: n =   8,388,608 --> time =   595,928,800 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,255,888,400 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,536,724,600 ns
+
+===== Results after iteration 3 of 5 =====
+
+--- ConstantTime (results 3 of 5) ---
+ConstantTime, n =          32 -> fastest:        31,700 ns, median:        44,900 ns
+ConstantTime, n =          64 -> fastest:        39,200 ns, median:        43,000 ns
+ConstantTime, n =         128 -> fastest:        28,600 ns, median:        28,800 ns
+ConstantTime, n =         256 -> fastest:        30,100 ns, median:        30,200 ns
+ConstantTime, n =         512 -> fastest:        30,200 ns, median:        31,300 ns
+ConstantTime, n =       1,024 -> fastest:        30,000 ns, median:        30,000 ns
+ConstantTime, n =       2,048 -> fastest:        30,200 ns, median:        50,900 ns
+ConstantTime, n =       4,096 -> fastest:        30,600 ns, median:        55,500 ns
+ConstantTime, n =       8,192 -> fastest:        28,300 ns, median:        28,700 ns
+ConstantTime, n =      16,384 -> fastest:        28,200 ns, median:        60,600 ns
+ConstantTime, n =      32,768 -> fastest:        29,200 ns, median:        29,900 ns
+ConstantTime, n =      65,536 -> fastest:        30,500 ns, median:        32,200 ns
+ConstantTime, n =     131,072 -> fastest:        42,500 ns, median:        43,500 ns
+ConstantTime, n =     262,144 -> fastest:        29,800 ns, median:        34,600 ns
+ConstantTime, n =     524,288 -> fastest:        45,300 ns, median:        45,900 ns
+ConstantTime, n =   1,048,576 -> fastest:        44,600 ns, median:        44,600 ns
+ConstantTime, n =   2,097,152 -> fastest:        45,700 ns, median:        45,900 ns
+ConstantTime, n =   4,194,304 -> fastest:        48,500 ns, median:        94,300 ns
+ConstantTime, n =   8,388,608 -> fastest:        51,100 ns, median:        92,000 ns
+
+--- LinearTime (results 3 of 5) ---
+LinearTime, n =          32 -> fastest:           400 ns, median:           400 ns
+LinearTime, n =          64 -> fastest:           200 ns, median:           300 ns
+LinearTime, n =         128 -> fastest:           200 ns, median:           200 ns
+LinearTime, n =         256 -> fastest:           200 ns, median:           300 ns
+LinearTime, n =         512 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =       1,024 -> fastest:           500 ns, median:           700 ns
+LinearTime, n =       2,048 -> fastest:           700 ns, median:           900 ns
+LinearTime, n =       4,096 -> fastest:         1,300 ns, median:         1,300 ns
+LinearTime, n =       8,192 -> fastest:         2,600 ns, median:         3,200 ns
+LinearTime, n =      16,384 -> fastest:         4,800 ns, median:         4,900 ns
+LinearTime, n =      32,768 -> fastest:         8,800 ns, median:         9,800 ns
+LinearTime, n =      65,536 -> fastest:        17,400 ns, median:        21,300 ns
+LinearTime, n =     131,072 -> fastest:        34,800 ns, median:        44,700 ns
+LinearTime, n =     262,144 -> fastest:        76,600 ns, median:        93,100 ns
+LinearTime, n =     524,288 -> fastest:       159,800 ns, median:       189,400 ns
+LinearTime, n =   1,048,576 -> fastest:       313,200 ns, median:       323,600 ns
+LinearTime, n =   2,097,152 -> fastest:       797,800 ns, median:       940,400 ns
+LinearTime, n =   4,194,304 -> fastest:     1,561,000 ns, median:     1,576,100 ns
+LinearTime, n =   8,388,608 -> fastest:     3,064,400 ns, median:     3,130,400 ns
+LinearTime, n =  16,777,216 -> fastest:     4,982,200 ns, median:     5,150,700 ns
+LinearTime, n =  33,554,432 -> fastest:    12,412,200 ns, median:    12,565,300 ns
+LinearTime, n =  67,108,864 -> fastest:    20,627,400 ns, median:    20,631,700 ns
+LinearTime, n = 134,217,728 -> fastest:    42,394,900 ns, median:    43,544,500 ns
+LinearTime, n = 268,435,456 -> fastest:    81,241,900 ns, median:    81,335,900 ns
+LinearTime, n = 536,870,912 -> fastest:   164,322,600 ns, median:   164,736,400 ns
+
+--- QuadraticTime (results 3 of 5) ---
+QuadraticTime, n =          32 -> fastest:         1,700 ns, median:         1,900 ns
+QuadraticTime, n =          64 -> fastest:         1,500 ns, median:         1,900 ns
+QuadraticTime, n =         128 -> fastest:         2,700 ns, median:         2,800 ns
+QuadraticTime, n =         256 -> fastest:         6,700 ns, median:         7,000 ns
+QuadraticTime, n =         512 -> fastest:        21,100 ns, median:        21,300 ns
+QuadraticTime, n =       1,024 -> fastest:        77,700 ns, median:        78,100 ns
+QuadraticTime, n =       2,048 -> fastest:       293,400 ns, median:       295,000 ns
+QuadraticTime, n =       4,096 -> fastest:     1,154,000 ns, median:     1,179,600 ns
+QuadraticTime, n =       8,192 -> fastest:     4,648,400 ns, median:     4,702,000 ns
+QuadraticTime, n =      16,384 -> fastest:    19,189,100 ns, median:    19,310,100 ns
+QuadraticTime, n =      32,768 -> fastest:    78,416,700 ns, median:    79,896,000 ns
+QuadraticTime, n =      65,536 -> fastest:   319,905,300 ns, median:   330,530,600 ns
+QuadraticTime, n =     131,072 -> fastest: 1,310,702,600 ns, median: 1,311,650,800 ns
+
+--- LogarithmicTime (results 3 of 5) ---
+LogarithmicTime, n =          32 -> fastest:       107,200 ns, median:       148,800 ns
+LogarithmicTime, n =          64 -> fastest:       111,500 ns, median:       178,100 ns
+LogarithmicTime, n =         128 -> fastest:       129,700 ns, median:       142,000 ns
+LogarithmicTime, n =         256 -> fastest:       155,200 ns, median:       166,100 ns
+LogarithmicTime, n =         512 -> fastest:       261,500 ns, median:       288,600 ns
+LogarithmicTime, n =       1,024 -> fastest:       206,900 ns, median:       309,600 ns
+LogarithmicTime, n =       2,048 -> fastest:       257,400 ns, median:       307,700 ns
+LogarithmicTime, n =       4,096 -> fastest:       259,700 ns, median:       343,300 ns
+LogarithmicTime, n =       8,192 -> fastest:       311,700 ns, median:       380,000 ns
+LogarithmicTime, n =      16,384 -> fastest:       332,400 ns, median:       408,600 ns
+LogarithmicTime, n =      32,768 -> fastest:       424,200 ns, median:       439,500 ns
+LogarithmicTime, n =      65,536 -> fastest:       431,900 ns, median:       485,200 ns
+LogarithmicTime, n =     131,072 -> fastest:       363,400 ns, median:       496,700 ns
+LogarithmicTime, n =     262,144 -> fastest:       354,000 ns, median:       534,400 ns
+LogarithmicTime, n =     524,288 -> fastest:       550,200 ns, median:       618,900 ns
+LogarithmicTime, n =   1,048,576 -> fastest:       623,900 ns, median:       634,400 ns
+LogarithmicTime, n =   2,097,152 -> fastest:       564,600 ns, median:       942,600 ns
+LogarithmicTime, n =   4,194,304 -> fastest:       574,400 ns, median:       710,600 ns
+LogarithmicTime, n =   8,388,608 -> fastest:       670,800 ns, median:       746,400 ns
+LogarithmicTime, n =  16,777,216 -> fastest:       689,100 ns, median:       700,600 ns
+LogarithmicTime, n =  33,554,432 -> fastest:       683,200 ns, median:       761,300 ns
+LogarithmicTime, n =  67,108,864 -> fastest:       802,800 ns, median:       815,800 ns
+LogarithmicTime, n = 134,217,728 -> fastest:       737,300 ns, median:       789,600 ns
+LogarithmicTime, n = 268,435,456 -> fastest:       786,200 ns, median:     1,334,100 ns
+LogarithmicTime, n = 536,870,912 -> fastest:       875,700 ns, median:     1,107,400 ns
+
+--- QuasiLinearTime (results 3 of 5) ---
+QuasiLinearTime, n =          64 -> fastest:         5,500 ns, median:         7,700 ns
+QuasiLinearTime, n =         128 -> fastest:         5,500 ns, median:         6,900 ns
+QuasiLinearTime, n =         256 -> fastest:        10,100 ns, median:        11,600 ns
+QuasiLinearTime, n =         512 -> fastest:        15,400 ns, median:        16,400 ns
+QuasiLinearTime, n =       1,024 -> fastest:        31,900 ns, median:        34,900 ns
+QuasiLinearTime, n =       2,048 -> fastest:        66,200 ns, median:        67,900 ns
+QuasiLinearTime, n =       4,096 -> fastest:       141,400 ns, median:       149,300 ns
+QuasiLinearTime, n =       8,192 -> fastest:       298,400 ns, median:       314,200 ns
+QuasiLinearTime, n =      16,384 -> fastest:       627,300 ns, median:       698,800 ns
+QuasiLinearTime, n =      32,768 -> fastest:     1,370,300 ns, median:     1,413,600 ns
+QuasiLinearTime, n =      65,536 -> fastest:     2,956,900 ns, median:     3,008,200 ns
+QuasiLinearTime, n =     131,072 -> fastest:     6,464,800 ns, median:     6,540,900 ns
+QuasiLinearTime, n =     262,144 -> fastest:    13,359,300 ns, median:    13,653,400 ns
+QuasiLinearTime, n =     524,288 -> fastest:    29,127,800 ns, median:    29,510,100 ns
+QuasiLinearTime, n =   1,048,576 -> fastest:    60,820,100 ns, median:    62,492,400 ns
+QuasiLinearTime, n =   2,097,152 -> fastest:   131,036,600 ns, median:   132,407,400 ns
+QuasiLinearTime, n =   4,194,304 -> fastest:   270,546,400 ns, median:   271,716,500 ns
+QuasiLinearTime, n =   8,388,608 -> fastest:   563,423,900 ns, median:   567,744,300 ns
+QuasiLinearTime, n =  16,777,216 -> fastest: 1,188,103,000 ns, median: 1,205,931,700 ns
+QuasiLinearTime, n =  33,554,432 -> fastest: 2,467,129,300 ns, median: 2,478,637,100 ns
+
+===== Iteration 4 of 5 =====
+
+--- ConstantTime (measuring 4 of 5) ---
+ConstantTime: n =          32 --> time =        65,700 ns
+ConstantTime: n =          64 --> time =        73,100 ns
+ConstantTime: n =         128 --> time =        34,200 ns
+ConstantTime: n =         256 --> time =        40,500 ns
+ConstantTime: n =         512 --> time =        28,000 ns
+ConstantTime: n =       1,024 --> time =        43,000 ns
+ConstantTime: n =       2,048 --> time =        23,900 ns
+ConstantTime: n =       4,096 --> time =        41,200 ns
+ConstantTime: n =       8,192 --> time =        22,800 ns
+ConstantTime: n =      16,384 --> time =        40,200 ns
+ConstantTime: n =      32,768 --> time =        35,300 ns
+ConstantTime: n =      65,536 --> time =        16,800 ns
+ConstantTime: n =     131,072 --> time =        18,000 ns
+ConstantTime: n =     262,144 --> time =        31,300 ns
+ConstantTime: n =     524,288 --> time =        36,300 ns
+ConstantTime: n =   1,048,576 --> time =        31,900 ns
+ConstantTime: n =   2,097,152 --> time =        33,200 ns
+ConstantTime: n =   4,194,304 --> time =        41,200 ns
+ConstantTime: n =   8,388,608 --> time =        34,000 ns
+
+--- LinearTime (measuring 4 of 5) ---
+LinearTime: n =          32 --> time =           400 ns
+LinearTime: n =          64 --> time =           500 ns
+LinearTime: n =         128 --> time =           200 ns
+LinearTime: n =         256 --> time =           300 ns
+LinearTime: n =         512 --> time =           400 ns
+LinearTime: n =       1,024 --> time =           400 ns
+LinearTime: n =       2,048 --> time =           700 ns
+LinearTime: n =       4,096 --> time =         1,800 ns
+LinearTime: n =       8,192 --> time =         2,800 ns
+LinearTime: n =      16,384 --> time =         4,900 ns
+LinearTime: n =      32,768 --> time =         9,600 ns
+LinearTime: n =      65,536 --> time =        20,700 ns
+LinearTime: n =     131,072 --> time =        41,100 ns
+LinearTime: n =     262,144 --> time =        96,200 ns
+LinearTime: n =     524,288 --> time =       213,700 ns
+LinearTime: n =   1,048,576 --> time =       393,000 ns
+LinearTime: n =   2,097,152 --> time =     1,181,800 ns
+LinearTime: n =   4,194,304 --> time =     1,721,200 ns
+LinearTime: n =   8,388,608 --> time =     3,332,300 ns
+LinearTime: n =  16,777,216 --> time =     6,420,600 ns
+LinearTime: n =  33,554,432 --> time =    12,606,900 ns
+LinearTime: n =  67,108,864 --> time =    22,228,600 ns
+LinearTime: n = 134,217,728 --> time =    43,735,800 ns
+LinearTime: n = 268,435,456 --> time =    86,891,800 ns
+LinearTime: n = 536,870,912 --> time =   171,705,400 ns
+
+--- QuadraticTime (measuring 4 of 5) ---
+QuadraticTime: n =          32 --> time =         2,100 ns
+QuadraticTime: n =          64 --> time =         1,900 ns
+QuadraticTime: n =         128 --> time =         3,300 ns
+QuadraticTime: n =         256 --> time =         7,800 ns
+QuadraticTime: n =         512 --> time =        21,300 ns
+QuadraticTime: n =       1,024 --> time =        78,600 ns
+QuadraticTime: n =       2,048 --> time =       313,000 ns
+QuadraticTime: n =       4,096 --> time =     1,176,300 ns
+QuadraticTime: n =       8,192 --> time =     4,941,400 ns
+QuadraticTime: n =      16,384 --> time =    29,184,100 ns
+QuadraticTime: n =      32,768 --> time =    85,985,100 ns
+QuadraticTime: n =      65,536 --> time =   345,639,600 ns
+QuadraticTime: n =     131,072 --> time = 1,398,634,100 ns
+
+--- LogarithmicTime (measuring 4 of 5) ---
+LogarithmicTime: n =          32 --> time =        78,500 ns
+LogarithmicTime: n =          64 --> time =        97,300 ns
+LogarithmicTime: n =         128 --> time =       110,900 ns
+LogarithmicTime: n =         256 --> time =       228,200 ns
+LogarithmicTime: n =         512 --> time =       219,300 ns
+LogarithmicTime: n =       1,024 --> time =       264,900 ns
+LogarithmicTime: n =       2,048 --> time =       173,500 ns
+LogarithmicTime: n =       4,096 --> time =       191,800 ns
+LogarithmicTime: n =       8,192 --> time =       351,400 ns
+LogarithmicTime: n =      16,384 --> time =       337,300 ns
+LogarithmicTime: n =      32,768 --> time =       530,400 ns
+LogarithmicTime: n =      65,536 --> time =       525,900 ns
+LogarithmicTime: n =     131,072 --> time =       413,100 ns
+LogarithmicTime: n =     262,144 --> time =       300,400 ns
+LogarithmicTime: n =     524,288 --> time =       714,500 ns
+LogarithmicTime: n =   1,048,576 --> time =       597,700 ns
+LogarithmicTime: n =   2,097,152 --> time =       643,300 ns
+LogarithmicTime: n =   4,194,304 --> time =       633,000 ns
+LogarithmicTime: n =   8,388,608 --> time =       661,100 ns
+LogarithmicTime: n =  16,777,216 --> time =       526,500 ns
+LogarithmicTime: n =  33,554,432 --> time =       670,500 ns
+LogarithmicTime: n =  67,108,864 --> time =       783,500 ns
+LogarithmicTime: n = 134,217,728 --> time =       710,700 ns
+LogarithmicTime: n = 268,435,456 --> time =       762,200 ns
+LogarithmicTime: n = 536,870,912 --> time =       770,500 ns
+
+--- QuasiLinearTime (measuring 4 of 5) ---
+QuasiLinearTime: n =          64 --> time =         9,200 ns
+QuasiLinearTime: n =         128 --> time =         5,900 ns
+QuasiLinearTime: n =         256 --> time =         8,300 ns
+QuasiLinearTime: n =         512 --> time =        16,700 ns
+QuasiLinearTime: n =       1,024 --> time =        36,200 ns
+QuasiLinearTime: n =       2,048 --> time =        69,300 ns
+QuasiLinearTime: n =       4,096 --> time =       146,500 ns
+QuasiLinearTime: n =       8,192 --> time =       423,100 ns
+QuasiLinearTime: n =      16,384 --> time =       656,600 ns
+QuasiLinearTime: n =      32,768 --> time =     1,393,400 ns
+QuasiLinearTime: n =      65,536 --> time =     3,016,200 ns
+QuasiLinearTime: n =     131,072 --> time =     6,562,600 ns
+QuasiLinearTime: n =     262,144 --> time =    13,680,600 ns
+QuasiLinearTime: n =     524,288 --> time =    30,748,700 ns
+QuasiLinearTime: n =   1,048,576 --> time =    66,374,500 ns
+QuasiLinearTime: n =   2,097,152 --> time =   130,274,700 ns
+QuasiLinearTime: n =   4,194,304 --> time =   269,406,800 ns
+QuasiLinearTime: n =   8,388,608 --> time =   576,123,900 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,167,297,200 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,462,639,300 ns
+
+===== Results after iteration 4 of 5 =====
+
+--- ConstantTime (results 4 of 5) ---
+ConstantTime, n =          32 -> fastest:        31,700 ns, median:        50,250 ns
+ConstantTime, n =          64 -> fastest:        39,200 ns, median:        53,950 ns
+ConstantTime, n =         128 -> fastest:        28,600 ns, median:        31,500 ns
+ConstantTime, n =         256 -> fastest:        30,100 ns, median:        35,350 ns
+ConstantTime, n =         512 -> fastest:        28,000 ns, median:        30,750 ns
+ConstantTime, n =       1,024 -> fastest:        30,000 ns, median:        36,500 ns
+ConstantTime, n =       2,048 -> fastest:        23,900 ns, median:        40,550 ns
+ConstantTime, n =       4,096 -> fastest:        30,600 ns, median:        48,350 ns
+ConstantTime, n =       8,192 -> fastest:        22,800 ns, median:        28,500 ns
+ConstantTime, n =      16,384 -> fastest:        28,200 ns, median:        50,400 ns
+ConstantTime, n =      32,768 -> fastest:        29,200 ns, median:        32,600 ns
+ConstantTime, n =      65,536 -> fastest:        16,800 ns, median:        31,350 ns
+ConstantTime, n =     131,072 -> fastest:        18,000 ns, median:        43,000 ns
+ConstantTime, n =     262,144 -> fastest:        29,800 ns, median:        32,950 ns
+ConstantTime, n =     524,288 -> fastest:        36,300 ns, median:        45,600 ns
+ConstantTime, n =   1,048,576 -> fastest:        31,900 ns, median:        44,600 ns
+ConstantTime, n =   2,097,152 -> fastest:        33,200 ns, median:        45,800 ns
+ConstantTime, n =   4,194,304 -> fastest:        41,200 ns, median:        71,400 ns
+ConstantTime, n =   8,388,608 -> fastest:        34,000 ns, median:        71,550 ns
+
+--- LinearTime (results 4 of 5) ---
+LinearTime, n =          32 -> fastest:           400 ns, median:           400 ns
+LinearTime, n =          64 -> fastest:           200 ns, median:           300 ns
+LinearTime, n =         128 -> fastest:           200 ns, median:           200 ns
+LinearTime, n =         256 -> fastest:           200 ns, median:           300 ns
+LinearTime, n =         512 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =       1,024 -> fastest:           400 ns, median:           600 ns
+LinearTime, n =       2,048 -> fastest:           700 ns, median:           800 ns
+LinearTime, n =       4,096 -> fastest:         1,300 ns, median:         1,550 ns
+LinearTime, n =       8,192 -> fastest:         2,600 ns, median:         3,000 ns
+LinearTime, n =      16,384 -> fastest:         4,800 ns, median:         4,900 ns
+LinearTime, n =      32,768 -> fastest:         8,800 ns, median:         9,700 ns
+LinearTime, n =      65,536 -> fastest:        17,400 ns, median:        21,000 ns
+LinearTime, n =     131,072 -> fastest:        34,800 ns, median:        42,900 ns
+LinearTime, n =     262,144 -> fastest:        76,600 ns, median:        94,650 ns
+LinearTime, n =     524,288 -> fastest:       159,800 ns, median:       196,900 ns
+LinearTime, n =   1,048,576 -> fastest:       313,200 ns, median:       358,300 ns
+LinearTime, n =   2,097,152 -> fastest:       797,800 ns, median:     1,061,100 ns
+LinearTime, n =   4,194,304 -> fastest:     1,561,000 ns, median:     1,622,150 ns
+LinearTime, n =   8,388,608 -> fastest:     3,064,400 ns, median:     3,172,900 ns
+LinearTime, n =  16,777,216 -> fastest:     4,982,200 ns, median:     5,691,900 ns
+LinearTime, n =  33,554,432 -> fastest:    12,412,200 ns, median:    12,586,100 ns
+LinearTime, n =  67,108,864 -> fastest:    20,627,400 ns, median:    21,430,150 ns
+LinearTime, n = 134,217,728 -> fastest:    42,394,900 ns, median:    43,640,150 ns
+LinearTime, n = 268,435,456 -> fastest:    81,241,900 ns, median:    82,025,600 ns
+LinearTime, n = 536,870,912 -> fastest:   164,322,600 ns, median:   166,709,050 ns
+
+--- QuadraticTime (results 4 of 5) ---
+QuadraticTime, n =          32 -> fastest:         1,700 ns, median:         2,000 ns
+QuadraticTime, n =          64 -> fastest:         1,500 ns, median:         1,900 ns
+QuadraticTime, n =         128 -> fastest:         2,700 ns, median:         2,900 ns
+QuadraticTime, n =         256 -> fastest:         6,700 ns, median:         7,150 ns
+QuadraticTime, n =         512 -> fastest:        21,100 ns, median:        21,300 ns
+QuadraticTime, n =       1,024 -> fastest:        77,700 ns, median:        78,250 ns
+QuadraticTime, n =       2,048 -> fastest:       293,400 ns, median:       297,450 ns
+QuadraticTime, n =       4,096 -> fastest:     1,154,000 ns, median:     1,177,950 ns
+QuadraticTime, n =       8,192 -> fastest:     4,648,400 ns, median:     4,711,100 ns
+QuadraticTime, n =      16,384 -> fastest:    19,189,100 ns, median:    19,375,250 ns
+QuadraticTime, n =      32,768 -> fastest:    78,416,700 ns, median:    81,774,300 ns
+QuadraticTime, n =      65,536 -> fastest:   319,905,300 ns, median:   334,772,700 ns
+QuadraticTime, n =     131,072 -> fastest: 1,310,702,600 ns, median: 1,317,785,150 ns
+
+--- LogarithmicTime (results 4 of 5) ---
+LogarithmicTime, n =          32 -> fastest:        78,500 ns, median:       128,000 ns
+LogarithmicTime, n =          64 -> fastest:        97,300 ns, median:       144,800 ns
+LogarithmicTime, n =         128 -> fastest:       110,900 ns, median:       135,850 ns
+LogarithmicTime, n =         256 -> fastest:       155,200 ns, median:       197,150 ns
+LogarithmicTime, n =         512 -> fastest:       219,300 ns, median:       275,050 ns
+LogarithmicTime, n =       1,024 -> fastest:       206,900 ns, median:       287,250 ns
+LogarithmicTime, n =       2,048 -> fastest:       173,500 ns, median:       282,550 ns
+LogarithmicTime, n =       4,096 -> fastest:       191,800 ns, median:       301,500 ns
+LogarithmicTime, n =       8,192 -> fastest:       311,700 ns, median:       365,700 ns
+LogarithmicTime, n =      16,384 -> fastest:       332,400 ns, median:       372,950 ns
+LogarithmicTime, n =      32,768 -> fastest:       424,200 ns, median:       461,850 ns
+LogarithmicTime, n =      65,536 -> fastest:       431,900 ns, median:       505,550 ns
+LogarithmicTime, n =     131,072 -> fastest:       363,400 ns, median:       454,900 ns
+LogarithmicTime, n =     262,144 -> fastest:       300,400 ns, median:       444,200 ns
+LogarithmicTime, n =     524,288 -> fastest:       550,200 ns, median:       666,700 ns
+LogarithmicTime, n =   1,048,576 -> fastest:       597,700 ns, median:       629,150 ns
+LogarithmicTime, n =   2,097,152 -> fastest:       564,600 ns, median:       792,950 ns
+LogarithmicTime, n =   4,194,304 -> fastest:       574,400 ns, median:       671,800 ns
+LogarithmicTime, n =   8,388,608 -> fastest:       661,100 ns, median:       708,600 ns
+LogarithmicTime, n =  16,777,216 -> fastest:       526,500 ns, median:       694,850 ns
+LogarithmicTime, n =  33,554,432 -> fastest:       670,500 ns, median:       722,250 ns
+LogarithmicTime, n =  67,108,864 -> fastest:       783,500 ns, median:       809,300 ns
+LogarithmicTime, n = 134,217,728 -> fastest:       710,700 ns, median:       763,450 ns
+LogarithmicTime, n = 268,435,456 -> fastest:       762,200 ns, median:     1,060,150 ns
+LogarithmicTime, n = 536,870,912 -> fastest:       770,500 ns, median:       991,550 ns
+
+--- QuasiLinearTime (results 4 of 5) ---
+QuasiLinearTime, n =          64 -> fastest:         5,500 ns, median:         8,250 ns
+QuasiLinearTime, n =         128 -> fastest:         5,500 ns, median:         6,400 ns
+QuasiLinearTime, n =         256 -> fastest:         8,300 ns, median:        10,850 ns
+QuasiLinearTime, n =         512 -> fastest:        15,400 ns, median:        16,550 ns
+QuasiLinearTime, n =       1,024 -> fastest:        31,900 ns, median:        35,550 ns
+QuasiLinearTime, n =       2,048 -> fastest:        66,200 ns, median:        68,300 ns
+QuasiLinearTime, n =       4,096 -> fastest:       141,400 ns, median:       147,900 ns
+QuasiLinearTime, n =       8,192 -> fastest:       298,400 ns, median:       318,700 ns
+QuasiLinearTime, n =      16,384 -> fastest:       627,300 ns, median:       677,700 ns
+QuasiLinearTime, n =      32,768 -> fastest:     1,370,300 ns, median:     1,403,500 ns
+QuasiLinearTime, n =      65,536 -> fastest:     2,956,900 ns, median:     3,012,200 ns
+QuasiLinearTime, n =     131,072 -> fastest:     6,464,800 ns, median:     6,547,550 ns
+QuasiLinearTime, n =     262,144 -> fastest:    13,359,300 ns, median:    13,667,000 ns
+QuasiLinearTime, n =     524,288 -> fastest:    29,127,800 ns, median:    29,534,350 ns
+QuasiLinearTime, n =   1,048,576 -> fastest:    60,820,100 ns, median:    62,656,650 ns
+QuasiLinearTime, n =   2,097,152 -> fastest:   130,274,700 ns, median:   131,722,000 ns
+QuasiLinearTime, n =   4,194,304 -> fastest:   269,406,800 ns, median:   271,131,450 ns
+QuasiLinearTime, n =   8,388,608 -> fastest:   563,423,900 ns, median:   571,934,100 ns
+QuasiLinearTime, n =  16,777,216 -> fastest: 1,167,297,200 ns, median: 1,197,017,350 ns
+QuasiLinearTime, n =  33,554,432 -> fastest: 2,462,639,300 ns, median: 2,472,883,200 ns
+
+===== Iteration 5 of 5 =====
+
+--- ConstantTime (measuring 5 of 5) ---
+ConstantTime: n =          32 --> time =        33,300 ns
+ConstantTime: n =          64 --> time =        38,000 ns
+ConstantTime: n =         128 --> time =        15,400 ns
+ConstantTime: n =         256 --> time =        15,900 ns
+ConstantTime: n =         512 --> time =        16,200 ns
+ConstantTime: n =       1,024 --> time =        15,700 ns
+ConstantTime: n =       2,048 --> time =        15,600 ns
+ConstantTime: n =       4,096 --> time =        17,000 ns
+ConstantTime: n =       8,192 --> time =        14,500 ns
+ConstantTime: n =      16,384 --> time =        14,400 ns
+ConstantTime: n =      32,768 --> time =        14,200 ns
+ConstantTime: n =      65,536 --> time =        16,700 ns
+ConstantTime: n =     131,072 --> time =        49,300 ns
+ConstantTime: n =     262,144 --> time =        47,300 ns
+ConstantTime: n =     524,288 --> time =        33,100 ns
+ConstantTime: n =   1,048,576 --> time =        33,200 ns
+ConstantTime: n =   2,097,152 --> time =        33,600 ns
+ConstantTime: n =   4,194,304 --> time =        34,000 ns
+ConstantTime: n =   8,388,608 --> time =        35,200 ns
+
+--- LinearTime (measuring 5 of 5) ---
+LinearTime: n =          32 --> time =           400 ns
+LinearTime: n =          64 --> time =           200 ns
+LinearTime: n =         128 --> time =           400 ns
+LinearTime: n =         256 --> time =           200 ns
+LinearTime: n =         512 --> time =           300 ns
+LinearTime: n =       1,024 --> time =           400 ns
+LinearTime: n =       2,048 --> time =           800 ns
+LinearTime: n =       4,096 --> time =         1,700 ns
+LinearTime: n =       8,192 --> time =         2,600 ns
+LinearTime: n =      16,384 --> time =         5,300 ns
+LinearTime: n =      32,768 --> time =         9,900 ns
+LinearTime: n =      65,536 --> time =        20,400 ns
+LinearTime: n =     131,072 --> time =        42,700 ns
+LinearTime: n =     262,144 --> time =       101,500 ns
+LinearTime: n =     524,288 --> time =       159,300 ns
+LinearTime: n =   1,048,576 --> time =       441,200 ns
+LinearTime: n =   2,097,152 --> time =       633,400 ns
+LinearTime: n =   4,194,304 --> time =     1,553,400 ns
+LinearTime: n =   8,388,608 --> time =     3,135,000 ns
+LinearTime: n =  16,777,216 --> time =     6,687,400 ns
+LinearTime: n =  33,554,432 --> time =    11,132,600 ns
+LinearTime: n =  67,108,864 --> time =    26,049,500 ns
+LinearTime: n = 134,217,728 --> time =    46,186,300 ns
+LinearTime: n = 268,435,456 --> time =    88,277,800 ns
+LinearTime: n = 536,870,912 --> time =   172,212,300 ns
+
+--- QuadraticTime (measuring 5 of 5) ---
+QuadraticTime: n =          32 --> time =         1,600 ns
+QuadraticTime: n =          64 --> time =         2,100 ns
+QuadraticTime: n =         128 --> time =         3,000 ns
+QuadraticTime: n =         256 --> time =         7,400 ns
+QuadraticTime: n =         512 --> time =        21,900 ns
+QuadraticTime: n =       1,024 --> time =        79,300 ns
+QuadraticTime: n =       2,048 --> time =       299,100 ns
+QuadraticTime: n =       4,096 --> time =     1,202,900 ns
+QuadraticTime: n =       8,192 --> time =     4,739,300 ns
+QuadraticTime: n =      16,384 --> time =    19,453,800 ns
+QuadraticTime: n =      32,768 --> time =    79,792,100 ns
+QuadraticTime: n =      65,536 --> time =   322,780,500 ns
+QuadraticTime: n =     131,072 --> time = 1,329,422,000 ns
+
+--- LogarithmicTime (measuring 5 of 5) ---
+LogarithmicTime: n =          32 --> time =        77,800 ns
+LogarithmicTime: n =          64 --> time =       129,700 ns
+LogarithmicTime: n =         128 --> time =       109,900 ns
+LogarithmicTime: n =         256 --> time =       351,300 ns
+LogarithmicTime: n =         512 --> time =       289,800 ns
+LogarithmicTime: n =       1,024 --> time =       261,700 ns
+LogarithmicTime: n =       2,048 --> time =       173,600 ns
+LogarithmicTime: n =       4,096 --> time =       296,900 ns
+LogarithmicTime: n =       8,192 --> time =       325,000 ns
+LogarithmicTime: n =      16,384 --> time =       314,900 ns
+LogarithmicTime: n =      32,768 --> time =       406,900 ns
+LogarithmicTime: n =      65,536 --> time =       360,000 ns
+LogarithmicTime: n =     131,072 --> time =       379,400 ns
+LogarithmicTime: n =     262,144 --> time =       300,200 ns
+LogarithmicTime: n =     524,288 --> time =       658,500 ns
+LogarithmicTime: n =   1,048,576 --> time =       561,700 ns
+LogarithmicTime: n =   2,097,152 --> time =       590,500 ns
+LogarithmicTime: n =   4,194,304 --> time =       607,000 ns
+LogarithmicTime: n =   8,388,608 --> time =       664,400 ns
+LogarithmicTime: n =  16,777,216 --> time =       632,800 ns
+LogarithmicTime: n =  33,554,432 --> time =       626,500 ns
+LogarithmicTime: n =  67,108,864 --> time =       731,400 ns
+LogarithmicTime: n = 134,217,728 --> time =       714,300 ns
+LogarithmicTime: n = 268,435,456 --> time =       737,000 ns
+LogarithmicTime: n = 536,870,912 --> time =       773,800 ns
+
+--- QuasiLinearTime (measuring 5 of 5) ---
+QuasiLinearTime: n =          64 --> time =         4,600 ns
+QuasiLinearTime: n =         128 --> time =         6,500 ns
+QuasiLinearTime: n =         256 --> time =        11,200 ns
+QuasiLinearTime: n =         512 --> time =        17,600 ns
+QuasiLinearTime: n =       1,024 --> time =        34,900 ns
+QuasiLinearTime: n =       2,048 --> time =        69,400 ns
+QuasiLinearTime: n =       4,096 --> time =       140,600 ns
+QuasiLinearTime: n =       8,192 --> time =       322,700 ns
+QuasiLinearTime: n =      16,384 --> time =       657,300 ns
+QuasiLinearTime: n =      32,768 --> time =     1,393,400 ns
+QuasiLinearTime: n =      65,536 --> time =     3,013,800 ns
+QuasiLinearTime: n =     131,072 --> time =     6,599,600 ns
+QuasiLinearTime: n =     262,144 --> time =    13,845,200 ns
+QuasiLinearTime: n =     524,288 --> time =    28,878,500 ns
+QuasiLinearTime: n =   1,048,576 --> time =    60,460,400 ns
+QuasiLinearTime: n =   2,097,152 --> time =   130,128,700 ns
+QuasiLinearTime: n =   4,194,304 --> time =   272,684,700 ns
+QuasiLinearTime: n =   8,388,608 --> time =   581,394,000 ns
+QuasiLinearTime: n =  16,777,216 --> time = 1,184,497,800 ns
+QuasiLinearTime: n =  33,554,432 --> time = 2,476,234,700 ns
+
+===== Results after iteration 5 of 5 =====
+
+--- ConstantTime (results 5 of 5) ---
+ConstantTime, n =          32 -> fastest:        31,700 ns, median:        44,900 ns
+ConstantTime, n =          64 -> fastest:        38,000 ns, median:        43,000 ns
+ConstantTime, n =         128 -> fastest:        15,400 ns, median:        28,800 ns
+ConstantTime, n =         256 -> fastest:        15,900 ns, median:        30,200 ns
+ConstantTime, n =         512 -> fastest:        16,200 ns, median:        30,200 ns
+ConstantTime, n =       1,024 -> fastest:        15,700 ns, median:        30,000 ns
+ConstantTime, n =       2,048 -> fastest:        15,600 ns, median:        30,200 ns
+ConstantTime, n =       4,096 -> fastest:        17,000 ns, median:        41,200 ns
+ConstantTime, n =       8,192 -> fastest:        14,500 ns, median:        28,300 ns
+ConstantTime, n =      16,384 -> fastest:        14,400 ns, median:        40,200 ns
+ConstantTime, n =      32,768 -> fastest:        14,200 ns, median:        29,900 ns
+ConstantTime, n =      65,536 -> fastest:        16,700 ns, median:        30,500 ns
+ConstantTime, n =     131,072 -> fastest:        18,000 ns, median:        43,500 ns
+ConstantTime, n =     262,144 -> fastest:        29,800 ns, median:        34,600 ns
+ConstantTime, n =     524,288 -> fastest:        33,100 ns, median:        45,300 ns
+ConstantTime, n =   1,048,576 -> fastest:        31,900 ns, median:        44,600 ns
+ConstantTime, n =   2,097,152 -> fastest:        33,200 ns, median:        45,700 ns
+ConstantTime, n =   4,194,304 -> fastest:        34,000 ns, median:        48,500 ns
+ConstantTime, n =   8,388,608 -> fastest:        34,000 ns, median:        51,100 ns
+
+--- LinearTime (results 5 of 5) ---
+LinearTime, n =          32 -> fastest:           400 ns, median:           400 ns
+LinearTime, n =          64 -> fastest:           200 ns, median:           300 ns
+LinearTime, n =         128 -> fastest:           200 ns, median:           200 ns
+LinearTime, n =         256 -> fastest:           200 ns, median:           300 ns
+LinearTime, n =         512 -> fastest:           300 ns, median:           300 ns
+LinearTime, n =       1,024 -> fastest:           400 ns, median:           500 ns
+LinearTime, n =       2,048 -> fastest:           700 ns, median:           800 ns
+LinearTime, n =       4,096 -> fastest:         1,300 ns, median:         1,700 ns
+LinearTime, n =       8,192 -> fastest:         2,600 ns, median:         2,800 ns
+LinearTime, n =      16,384 -> fastest:         4,800 ns, median:         4,900 ns
+LinearTime, n =      32,768 -> fastest:         8,800 ns, median:         9,800 ns
+LinearTime, n =      65,536 -> fastest:        17,400 ns, median:        20,700 ns
+LinearTime, n =     131,072 -> fastest:        34,800 ns, median:        42,700 ns
+LinearTime, n =     262,144 -> fastest:        76,600 ns, median:        96,200 ns
+LinearTime, n =     524,288 -> fastest:       159,300 ns, median:       189,400 ns
+LinearTime, n =   1,048,576 -> fastest:       313,200 ns, median:       393,000 ns
+LinearTime, n =   2,097,152 -> fastest:       633,400 ns, median:       940,400 ns
+LinearTime, n =   4,194,304 -> fastest:     1,553,400 ns, median:     1,576,100 ns
+LinearTime, n =   8,388,608 -> fastest:     3,064,400 ns, median:     3,135,000 ns
+LinearTime, n =  16,777,216 -> fastest:     4,982,200 ns, median:     6,233,100 ns
+LinearTime, n =  33,554,432 -> fastest:    11,132,600 ns, median:    12,565,300 ns
+LinearTime, n =  67,108,864 -> fastest:    20,627,400 ns, median:    22,228,600 ns
+LinearTime, n = 134,217,728 -> fastest:    42,394,900 ns, median:    43,735,800 ns
+LinearTime, n = 268,435,456 -> fastest:    81,241,900 ns, median:    82,715,300 ns
+LinearTime, n = 536,870,912 -> fastest:   164,322,600 ns, median:   168,681,700 ns
+
+--- QuadraticTime (results 5 of 5) ---
+QuadraticTime, n =          32 -> fastest:         1,600 ns, median:         1,900 ns
+QuadraticTime, n =          64 -> fastest:         1,500 ns, median:         1,900 ns
+QuadraticTime, n =         128 -> fastest:         2,700 ns, median:         3,000 ns
+QuadraticTime, n =         256 -> fastest:         6,700 ns, median:         7,300 ns
+QuadraticTime, n =         512 -> fastest:        21,100 ns, median:        21,300 ns
+QuadraticTime, n =       1,024 -> fastest:        77,700 ns, median:        78,400 ns
+QuadraticTime, n =       2,048 -> fastest:       293,400 ns, median:       299,100 ns
+QuadraticTime, n =       4,096 -> fastest:     1,154,000 ns, median:     1,179,600 ns
+QuadraticTime, n =       8,192 -> fastest:     4,648,400 ns, median:     4,720,200 ns
+QuadraticTime, n =      16,384 -> fastest:    19,189,100 ns, median:    19,440,400 ns
+QuadraticTime, n =      32,768 -> fastest:    78,416,700 ns, median:    79,896,000 ns
+QuadraticTime, n =      65,536 -> fastest:   319,905,300 ns, median:   330,530,600 ns
+QuadraticTime, n =     131,072 -> fastest: 1,310,702,600 ns, median: 1,323,919,500 ns
+
+--- LogarithmicTime (results 5 of 5) ---
+LogarithmicTime, n =          32 -> fastest:        77,800 ns, median:       107,200 ns
+LogarithmicTime, n =          64 -> fastest:        97,300 ns, median:       129,700 ns
+LogarithmicTime, n =         128 -> fastest:       109,900 ns, median:       129,700 ns
+LogarithmicTime, n =         256 -> fastest:       155,200 ns, median:       228,200 ns
+LogarithmicTime, n =         512 -> fastest:       219,300 ns, median:       288,600 ns
+LogarithmicTime, n =       1,024 -> fastest:       206,900 ns, median:       264,900 ns
+LogarithmicTime, n =       2,048 -> fastest:       173,500 ns, median:       257,400 ns
+LogarithmicTime, n =       4,096 -> fastest:       191,800 ns, median:       296,900 ns
+LogarithmicTime, n =       8,192 -> fastest:       311,700 ns, median:       351,400 ns
+LogarithmicTime, n =      16,384 -> fastest:       314,900 ns, median:       337,300 ns
+LogarithmicTime, n =      32,768 -> fastest:       406,900 ns, median:       439,500 ns
+LogarithmicTime, n =      65,536 -> fastest:       360,000 ns, median:       485,200 ns
+LogarithmicTime, n =     131,072 -> fastest:       363,400 ns, median:       413,100 ns
+LogarithmicTime, n =     262,144 -> fastest:       300,200 ns, median:       354,000 ns
+LogarithmicTime, n =     524,288 -> fastest:       550,200 ns, median:       658,500 ns
+LogarithmicTime, n =   1,048,576 -> fastest:       561,700 ns, median:       623,900 ns
+LogarithmicTime, n =   2,097,152 -> fastest:       564,600 ns, median:       643,300 ns
+LogarithmicTime, n =   4,194,304 -> fastest:       574,400 ns, median:       633,000 ns
+LogarithmicTime, n =   8,388,608 -> fastest:       661,100 ns, median:       670,800 ns
+LogarithmicTime, n =  16,777,216 -> fastest:       526,500 ns, median:       689,100 ns
+LogarithmicTime, n =  33,554,432 -> fastest:       626,500 ns, median:       683,200 ns
+LogarithmicTime, n =  67,108,864 -> fastest:       731,400 ns, median:       802,800 ns
+LogarithmicTime, n = 134,217,728 -> fastest:       710,700 ns, median:       737,300 ns
+LogarithmicTime, n = 268,435,456 -> fastest:       737,000 ns, median:       786,200 ns
+LogarithmicTime, n = 536,870,912 -> fastest:       770,500 ns, median:       875,700 ns
+
+--- QuasiLinearTime (results 5 of 5) ---
+QuasiLinearTime, n =          64 -> fastest:         4,600 ns, median:         7,700 ns
+QuasiLinearTime, n =         128 -> fastest:         5,500 ns, median:         6,500 ns
+QuasiLinearTime, n =         256 -> fastest:         8,300 ns, median:        11,200 ns
+QuasiLinearTime, n =         512 -> fastest:        15,400 ns, median:        16,700 ns
+QuasiLinearTime, n =       1,024 -> fastest:        31,900 ns, median:        34,900 ns
+QuasiLinearTime, n =       2,048 -> fastest:        66,200 ns, median:        68,700 ns
+QuasiLinearTime, n =       4,096 -> fastest:       140,600 ns, median:       146,500 ns
+QuasiLinearTime, n =       8,192 -> fastest:       298,400 ns, median:       322,700 ns
+QuasiLinearTime, n =      16,384 -> fastest:       627,300 ns, median:       657,300 ns
+QuasiLinearTime, n =      32,768 -> fastest:     1,370,300 ns, median:     1,393,400 ns
+QuasiLinearTime, n =      65,536 -> fastest:     2,956,900 ns, median:     3,013,800 ns
+QuasiLinearTime, n =     131,072 -> fastest:     6,464,800 ns, median:     6,554,200 ns
+QuasiLinearTime, n =     262,144 -> fastest:    13,359,300 ns, median:    13,680,600 ns
+QuasiLinearTime, n =     524,288 -> fastest:    28,878,500 ns, median:    29,510,100 ns
+QuasiLinearTime, n =   1,048,576 -> fastest:    60,460,400 ns, median:    62,492,400 ns
+QuasiLinearTime, n =   2,097,152 -> fastest:   130,128,700 ns, median:   131,036,600 ns
+QuasiLinearTime, n =   4,194,304 -> fastest:   269,406,800 ns, median:   271,716,500 ns
+QuasiLinearTime, n =   8,388,608 -> fastest:   563,423,900 ns, median:   576,123,900 ns
+QuasiLinearTime, n =  16,777,216 -> fastest: 1,167,297,200 ns, median: 1,188,103,000 ns
+QuasiLinearTime, n =  33,554,432 -> fastest: 2,462,639,300 ns, median: 2,476,234,700 ns
