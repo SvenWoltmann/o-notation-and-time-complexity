@@ -8,3 +8,7 @@ Code examples demonstrating the following complexity classes:
 * *O(n²)* - quadratic time (sorting an array with Insertion Sort)
 * *O(log n)* - logarithmic time (finding an element within a sorted array using binary search)
 * *O(n log n)* - quasi-linear time (sorting an array with Quicksort)
+
+The code belongs to this article:
+* English: [Big O Notation and Time Complexity – Easily Explained](https://www.happycoders.eu/java/big-o-notation-time-complexity/)
+* German: [O-Notation und Zeitkomplexität – anschaulich erklärt](https://www.happycoders.eu/de/java/o-notation-zeitkomplexitaet/)
