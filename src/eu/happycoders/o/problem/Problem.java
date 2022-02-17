@@ -19,5 +19,4 @@ public interface Problem {
   default int getMaxN() {
     return DEFAULT_MAX_N;
   }
-
 }

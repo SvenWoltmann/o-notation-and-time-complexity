@@ -5,8 +5,7 @@ import java.util.Arrays;
 /**
  * Simple demo for measuring a logarithmic-time problem - <em>O(log n)</em>:
  *
- * <p>
- * Finding an element within a sorted array using binary search.
+ * <p>Finding an element within a sorted array using binary search.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -14,10 +13,7 @@ public class LogarithmicTimeSimpleDemo {
 
   public static void main(String[] args) {
     for (int n = 32; n <= 536_870_912; n *= 2) {
-      int[] array = new int[n];
-      for (int i = 0; i < n; i++) {
-        array[i] = i;
-      }
+      int[] array = createArrayOfSize(n);
 
       long time = System.nanoTime();
       Arrays.binarySearch(array, 0);
@@ -27,4 +23,11 @@ public class LogarithmicTimeSimpleDemo {
     }
   }
 
+  private static int[] createArrayOfSize(int n) {
+    int[] array = new int[n];
+    for (int i = 0; i < n; i++) {
+      array[i] = i;
+    }
+    return array;
+  }
 }

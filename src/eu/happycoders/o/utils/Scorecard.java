@@ -1,10 +1,11 @@
 package eu.happycoders.o.utils;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Locale;
 
 /**
- * A scorecard to print the fastest and median times measured for a specific
- * algorithm and problem size.
+ * A scorecard to print the fastest and median times measured for a specific algorithm and problem
+ * size.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -31,12 +32,10 @@ public class Scorecard {
     }
   }
 
-  /**
-   * Prints the fastest and median times.
-   */
+  /** Prints the fastest and median times. */
   public void printResult() {
-    System.out.printf(Locale.US, "%s -> fastest: %,13d ns, median: %,13d ns%n",
-          name, fastest, getMedian());
+    System.out.printf(
+        Locale.US, "%s -> fastest: %,13d ns, median: %,13d ns%n", name, fastest, getMedian());
   }
 
   private long getMedian() {
@@ -47,5 +46,4 @@ public class Scorecard {
     }
     return ArrayUtils.median(array);
   }
-
 }

@@ -1,14 +1,14 @@
 package eu.happycoders.o.problem;
 
-import eu.happycoders.o.utils.*;
+import eu.happycoders.o.utils.ArrayUtils;
+import eu.happycoders.o.utils.BlackHole;
 
 import java.util.Arrays;
 
 /**
  * Implementation of a quasi-linear-time problem - <em>O(n log n)</em>:
  *
- * <p>
- * Sorting an array with Quicksort.
+ * <p>Sorting an array with Quicksort.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -45,5 +45,4 @@ public class QuasiLinearTime implements Problem {
     // Otherwise the operation will take too long
     return 2 << 24;
   }
-
 }

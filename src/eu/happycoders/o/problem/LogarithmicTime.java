@@ -1,14 +1,14 @@
 package eu.happycoders.o.problem;
 
-import eu.happycoders.o.utils.*;
+import eu.happycoders.o.utils.ArrayUtils;
+import eu.happycoders.o.utils.BlackHole;
 
 import java.util.Arrays;
 
 /**
  * Implementation of a logarithmic-time problem - <em>O(log n)</em>:
  *
- * <p>
- * Finding an element within a sorted array using binary search.
+ * <p>Finding an element within a sorted array using binary search.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -39,5 +39,4 @@ public class LogarithmicTime implements Problem {
 
     return time;
   }
-
 }

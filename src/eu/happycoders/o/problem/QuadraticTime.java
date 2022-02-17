@@ -1,12 +1,12 @@
 package eu.happycoders.o.problem;
 
-import eu.happycoders.o.utils.*;
+import eu.happycoders.o.utils.ArrayUtils;
+import eu.happycoders.o.utils.BlackHole;
 
 /**
  * Implementation of a quadratic-time problem - <em>O(n²)</em>:
  *
- * <p>
- * Sorting an array with Insertion Sort.
+ * <p>Sorting an array with Insertion Sort.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -48,5 +48,4 @@ public class QuadraticTime implements Problem {
     // Otherwise the operation will take too long
     return 2 << 16;
   }
-
 }

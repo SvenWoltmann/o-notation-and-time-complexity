@@ -1,12 +1,12 @@
 package eu.happycoders.o.problem;
 
-import eu.happycoders.o.utils.*;
+import eu.happycoders.o.utils.ArrayUtils;
+import eu.happycoders.o.utils.BlackHole;
 
 /**
  * Implementation of a linear-time problem - <em>O(n)</em>:
  *
- * <p>
- * Summing up all elements of an array.
+ * <p>Summing up all elements of an array.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -33,5 +33,4 @@ public class LinearTime implements Problem {
 
     return time;
   }
-
 }

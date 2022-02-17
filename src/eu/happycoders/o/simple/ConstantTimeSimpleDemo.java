@@ -5,8 +5,7 @@ import java.util.LinkedList;
 /**
  * Simple demo for measuring a constant-time problem - <em>O(1)</em>:
  *
- * <p>
- * Inserting elements at the beginning of a linked list.
+ * <p>Inserting elements at the beginning of a linked list.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -14,10 +13,7 @@ public class ConstantTimeSimpleDemo {
 
   public static void main(String[] args) {
     for (int n = 32; n <= 8_388_608; n *= 2) {
-      LinkedList<Integer> list = new LinkedList<>();
-      for (int i = 0; i < n; i++) {
-        list.add(i);
-      }
+      LinkedList<Integer> list = createLinkedListOfSize(n);
 
       long time = System.nanoTime();
       list.add(0, 1);
@@ -27,4 +23,11 @@ public class ConstantTimeSimpleDemo {
     }
   }
 
+  private static LinkedList<Integer> createLinkedListOfSize(int n) {
+    LinkedList<Integer> list = new LinkedList<>();
+    for (int i = 0; i < n; i++) {
+      list.add(i);
+    }
+    return list;
+  }
 }

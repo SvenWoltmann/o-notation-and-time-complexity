@@ -1,8 +1,7 @@
 package eu.happycoders.o.utils;
 
 /**
- * BlackHole for consuming values to make sure operations are not optimized
- * away by HotSpot.
+ * BlackHole for consuming values to make sure operations are not optimized away by HotSpot.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -17,5 +16,4 @@ public class BlackHole {
   public static void ensureExistence() {
     System.out.printf("%n(BlackHole's sum: %d)%n", sum);
   }
-
 }

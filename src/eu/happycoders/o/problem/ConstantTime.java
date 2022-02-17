@@ -5,8 +5,7 @@ import java.util.LinkedList;
 /**
  * Implementation of a constant-time problem - <em>O(1)</em>:
  *
- * <p>
- * Inserting elements at the beginning of a linked list.
+ * <p>Inserting elements at the beginning of a linked list.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -43,5 +42,4 @@ public class ConstantTime implements Problem {
     // Otherwise the preparation (creation of the linked list) takes too long
     return 2 << 22;
   }
-
 }

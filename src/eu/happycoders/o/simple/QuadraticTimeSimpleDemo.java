@@ -5,8 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Simple demo for measuring a quadratic-time problem - <em>O(n²)</em>:
  *
- * <p>
- * Sorting an array with Insertion Sort.
+ * <p>Sorting an array with Insertion Sort.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -14,11 +13,7 @@ public class QuadraticTimeSimpleDemo {
 
   public static void main(String[] args) {
     for (int n = 32; n <= 262_144; n *= 2) {
-      ThreadLocalRandom random = ThreadLocalRandom.current();
-      int[] array = new int[n];
-      for (int i = 0; i < n; i++) {
-        array[i] = random.nextInt();
-      }
+      int[] array = createRandomArrayOfSize(n);
 
       long time = System.nanoTime();
       insertionSort(array);
@@ -26,6 +21,15 @@ public class QuadraticTimeSimpleDemo {
 
       System.out.printf("n = %d -> time = %d ns%n", n, time);
     }
+  }
+
+  private static int[] createRandomArrayOfSize(int n) {
+    ThreadLocalRandom random = ThreadLocalRandom.current();
+    int[] array = new int[n];
+    for (int i = 0; i < n; i++) {
+      array[i] = random.nextInt();
+    }
+    return array;
   }
 
   private static void insertionSort(int[] elements) {
@@ -39,5 +43,4 @@ public class QuadraticTimeSimpleDemo {
       elements[j] = elementToSort;
     }
   }
-
 }

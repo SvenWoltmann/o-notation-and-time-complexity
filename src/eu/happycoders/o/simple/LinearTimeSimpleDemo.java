@@ -3,8 +3,7 @@ package eu.happycoders.o.simple;
 /**
  * Simple demo for measuring a linear-time problem - <em>O(n)</em>:
  *
- * <p>
- * Summing up all elements of an array.
+ * <p>Summing up all elements of an array.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -12,10 +11,7 @@ public class LinearTimeSimpleDemo {
 
   public static void main(String[] args) {
     for (int n = 32; n <= 536_870_912; n *= 2) {
-      int[] array = new int[n];
-      for (int i = 0; i < n; i++) {
-        array[i] = i;
-      }
+      int[] array = createArrayOfSize(n);
 
       long sum = 0;
 
@@ -29,4 +25,11 @@ public class LinearTimeSimpleDemo {
     }
   }
 
+  private static int[] createArrayOfSize(int n) {
+    int[] array = new int[n];
+    for (int i = 0; i < n; i++) {
+      array[i] = i;
+    }
+    return array;
+  }
 }

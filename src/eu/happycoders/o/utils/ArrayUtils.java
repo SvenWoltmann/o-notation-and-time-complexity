@@ -31,10 +31,8 @@ public class ArrayUtils {
     Arrays.sort(values);
     int length = values.length;
     int middle = length / 2;
-    if (length % 2 == 0)
-      return (values[middle] + values[middle - 1]) / 2;
-    else
-      return values[middle];
+    if (length % 2 == 0) return (values[middle] + values[middle - 1]) / 2;
+    else return values[middle];
   }
 
   public static void swap(int[] array, int i, int j) {
@@ -42,5 +40,4 @@ public class ArrayUtils {
     array[i] = array[j];
     array[j] = help;
   }
-
 }
